@@ -15,6 +15,7 @@
 
  *******************************************************************/
 
+#define DEBUG 1
 
 #include <Servo.h>
 
@@ -23,13 +24,10 @@
 #define POTPIN   A0   // Potentiometer on 2/A1
 Servo myServo1;
 
-int pos_mid = 74;
-int pos_mid_jitter = 1;
-int pos_fast = 55;
-int pos_slow = 65;
 
 void setup() {
   Serial.begin(9600);
+  
   myServo1.attach(SERVO1PIN);
   delay(15);
 }
@@ -41,25 +39,25 @@ void loop()  {
   potValue = analogRead(POTPIN);              // Read voltage on potentiometer
   int invar = map(potValue, 0, 1023, 0, 179);
 
+  // map the range of pot to limited map range on the servo.
+  // we are only intrested in naoorw band of the full range.
+  // in both directions, with a stop space in middle
+
   if ( potValue < 350 ) {
     servoPos = map(potValue, 332, 380, 55, 66);
-    state = 2;
-
   } else if (potValue > 650) {
     servoPos = map(potValue, 480, 430, 96, 83);
-    state = 1;
-
   } else {
     servoPos = 74;
-    state = 0;
   }
 
-  Serial.print(potValue);
-  Serial.print(" ");
-  Serial.print(invar);
-  Serial.print(" ");
-  Serial.println(state);
-
+  if (DEBUG) {
+    Serial.print(potValue);
+    Serial.print(" ");
+    Serial.print(invar);
+    Serial.print(" ");
+    Serial.println(state);
+  }
   myServo1.write(servoPos);
   delay(15);                              // waits 15ms for the servo to reach the position
 }
