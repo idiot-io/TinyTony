@@ -15,24 +15,27 @@
 
  *******************************************************************/
 
-#define DEBUG 0
-
-#include <Adafruit_SoftServo.h>  // SoftwareServo (works on non PWM pins)
-Adafruit_SoftServo myServo1;
+#define DEBUG 1
 
 #define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
-#define POTPIN   2   // Potentiometer on 2/A1 //for some reason this pysically mapsto 4/A2/PB$ on my attiny85 *shrug*
+#define POTPIN   A2  // Potentiometer on 2/A1 //for some reason this pysically mapsto 4/A2/PB$ on my attiny85 *shrug*
+#define TXPIN 1
 
+#include "SoftwareServo.h"
+SoftwareServo myServo1;  // create servo object to control a servo
+
+#include "SendOnlySoftwareSerial.h"
+SendOnlySoftwareSerial mySerial (TXPIN);  // Tx pin
 
 void setup() {
-  // Set up the interrupt that will refresh the servo for us automagically
-  OCR0A = 0xAF;            // any number is OK
-  TIMSK |= _BV(OCIE0A);    // Turn on the compare interrupt (below!)
 
+  mySerial.begin(9600);
+  mySerial.println("hell");
 
-myServo1.attach(SERVO1PIN);
-delay(15);
+  myServo1.attach(SERVO1PIN);
+  myServo1.setMaximumPulse(2200);
 
+  delay(15);
 }
 
 void loop()  {
@@ -50,20 +53,14 @@ void loop()  {
   } else {
     servoPos = 74;
   }
-
+  mySerial.print(servoPos);
+  mySerial.print(" ");
+  mySerial.println(potValue);
   myServo1.write(servoPos);
+
+
+  SoftwareServo::refresh();
   delay(15);                              // waits 15ms for the servo to reach the position
 
 
-}
-
-volatile uint8_t counter = 0;
-SIGNAL(TIMER0_COMPA_vect) {
-  // this gets called every 2 milliseconds
-  counter += 2;
-  // every 20 milliseconds, refresh the servos!
-  if (counter >= 20) {
-    counter = 0;
-    myServo1.refresh();
-  }
 }
