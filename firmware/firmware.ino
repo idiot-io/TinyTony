@@ -18,13 +18,11 @@
 #define DEBUG 0
 
 #include <Adafruit_SoftServo.h>  // SoftwareServo (works on non PWM pins)
-#define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
-#define POTPIN   2   // Potentiometer on 2/A1
 Adafruit_SoftServo myServo1;
 
+#define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
+#define POTPIN   2   // Potentiometer on 2/A1 //for some reason this pysically mapsto 4/A2/PB$ on my attiny85 *shrug*
 
-#include "SendOnlySoftwareSerial.h"
-SendOnlySoftwareSerial mySerial (1);  // Tx pin
 
 void setup() {
   // Set up the interrupt that will refresh the servo for us automagically
@@ -33,11 +31,8 @@ void setup() {
 
 
 myServo1.attach(SERVO1PIN);
+delay(15);
 
-mySerial.begin(4800);
-mySerial.println("hoo");
-
-  delay(15);
 }
 
 void loop()  {
