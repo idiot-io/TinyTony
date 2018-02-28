@@ -9,9 +9,10 @@
    4/A4    -3|    |6-   1
    GND     -4+----+5-   0/PWM
 
-  install:
+  using:
   ATTinyCore- https://github.com/SpenceKonde/ATTinyCore
-  sofServo https://github.com/adafruit/Adafruit_SoftServo
+  sofServo http://playground.arduino.cc/ComponentLib/Servo
+  SendOnlySoftwareSerial https://forum.arduino.cc/index.php?topic=112013.msg841582#msg841582
 
  *******************************************************************/
 
@@ -47,12 +48,14 @@ void loop()  {
   // in both directions, with a stop space in middle
 
   if ( potValue < 350 ) {
-    servoPos = map(potValue, 332, 380, 55, 66);
+    servoPos = map(potValue, 0, 350, 43, 83);
   } else if (potValue > 650) {
-    servoPos = map(potValue, 480, 430, 96, 83);
+    servoPos = map(potValue, 1024, 650, 130, 89);
   } else {
-    servoPos = 74;
+    servoPos = 86;
   }
+  //servoPos = map(potValue, 0, 1024, 0, 179);
+  
   mySerial.print(servoPos);
   mySerial.print(" ");
   mySerial.println(potValue);
