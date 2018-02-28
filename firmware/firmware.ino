@@ -15,29 +15,34 @@
 
  *******************************************************************/
 
-#define DEBUG 1
-
-#include <Servo.h>
+#define DEBUG 0
 
 #include <Adafruit_SoftServo.h>  // SoftwareServo (works on non PWM pins)
-#define SERVO1PIN 9   // Servo control line (orange) on 0/PWM
-#define POTPIN   A0   // Potentiometer on 2/A1
-Servo myServo1;
+#define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
+#define POTPIN   2   // Potentiometer on 2/A1
+Adafruit_SoftServo myServo1;
 
+
+#include "SendOnlySoftwareSerial.h"
+SendOnlySoftwareSerial mySerial (1);  // Tx pin
 
 void setup() {
-  Serial.begin(9600);
-  
-  myServo1.attach(SERVO1PIN);
+  // Set up the interrupt that will refresh the servo for us automagically
+  OCR0A = 0xAF;            // any number is OK
+  TIMSK |= _BV(OCIE0A);    // Turn on the compare interrupt (below!)
+
+
+myServo1.attach(SERVO1PIN);
+
+mySerial.begin(4800);
+mySerial.println("hoo");
+
   delay(15);
 }
 
 void loop()  {
-  int potValue;
   int servoPos;
-  int state;
-  potValue = analogRead(POTPIN);              // Read voltage on potentiometer
-  int invar = map(potValue, 0, 1023, 0, 179);
+  int potValue = analogRead(POTPIN);              // Read voltage on potentiometer
 
   // map the range of pot to limited map range on the servo.
   // we are only intrested in naoorw band of the full range.
@@ -51,15 +56,19 @@ void loop()  {
     servoPos = 74;
   }
 
-  if (DEBUG) {
-    Serial.print(potValue);
-    Serial.print(" ");
-    Serial.print(invar);
-    Serial.print(" ");
-    Serial.println(state);
-  }
   myServo1.write(servoPos);
   delay(15);                              // waits 15ms for the servo to reach the position
+
+
 }
 
-
+volatile uint8_t counter = 0;
+SIGNAL(TIMER0_COMPA_vect) {
+  // this gets called every 2 milliseconds
+  counter += 2;
+  // every 20 milliseconds, refresh the servos!
+  if (counter >= 20) {
+    counter = 0;
+    myServo1.refresh();
+  }
+}
