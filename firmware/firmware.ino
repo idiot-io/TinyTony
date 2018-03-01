@@ -15,7 +15,7 @@
   SendOnlySoftwareSerial https://forum.arduino.cc/index.php?topic=112013.msg841582#msg841582
   tiny_ir https://gist.github.com/SeeJayDee/caa9b5cc29246df44e45b8e7d1b1cdc5
   ir_methods https://github.com/z3t0/Arduino-IRremote/wiki/Receiving-with-the-IRremote-library
-  
+
   attiny85 pinout - https://camo.githubusercontent.com/081b569122da2244ff7de8bae15eb56947d05cc8/687474703a2f2f6472617a7a792e636f6d2f652f696d672f50696e6f7574543835612e6a7067
  *******************************************************************/
 
@@ -36,6 +36,7 @@ SendOnlySoftwareSerial softSerial (TXPIN);  // Tx pin
 #include "tiny_IRremote.h"
 IRrecv irrecv(RECVPIN);
 decode_results results;
+long lastPressTime = 0;
 
 void setup() {
   irrecv.enableIRIn();
@@ -52,13 +53,22 @@ void setup() {
 
 
 void loop()  {
-
-
   if (irrecv.decode(&results)) {
-    softSerial.println(results.value, HEX);
+    if (1) {
+      if (millis() - lastPressTime > 150) {
+        //state = 1 - state;
+        softSerial.println(results.value, HEX);
+      }
+      lastPressTime = millis();
+    }
     irrecv.resume(); // Receive the next value
   }
-
+  /*
+    if (irrecv.decode(&results)) {
+      softSerial.println(results.value, HEX);
+      irrecv.resume(); // Receive the next value
+    }
+  */
   int servoPos;
   int potValue = analogRead(POTPIN);              // Read voltage on potentiometer
 
@@ -75,13 +85,13 @@ void loop()  {
   }
   //to calibrate override the above
   //servoPos = map(potValue, 0, 1024, 0, 179);
-/*
-  softSerial.print(servoPos);
-  softSerial.print(" ");
-  softSerial.println(potValue);
-  softServo.write(servoPos);
+  /*
+    softSerial.print(servoPos);
+    softSerial.print(" ");
+    softSerial.println(potValue);
+    softServo.write(servoPos);
 
-*/ 
+  */
   SoftwareServo::refresh();
   delay(15);                              // waits 15ms for the servo to reach the position
 
