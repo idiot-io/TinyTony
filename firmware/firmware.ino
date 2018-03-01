@@ -15,9 +15,10 @@
   SendOnlySoftwareSerial https://forum.arduino.cc/index.php?topic=112013.msg841582#msg841582
 
  *******************************************************************/
+#include "tiny_IRremote.h"
 
 #define DEBUG 1
-
+ 
 #define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
 #define POTPIN   A2  // Potentiometer on 2/A1 //for some reason this pysically mapsto 4/A2/PB$ on my attiny85 *shrug*
 #define TXPIN 1
