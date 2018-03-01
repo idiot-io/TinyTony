@@ -74,13 +74,13 @@ void loop()  {
   }
   //to calibrate override the above
   //servoPos = map(potValue, 0, 1024, 0, 179);
-
+/*
   softSerial.print(servoPos);
   softSerial.print(" ");
   softSerial.println(potValue);
   softServo.write(servoPos);
 
-
+*/
   SoftwareServo::refresh();
   delay(15);                              // waits 15ms for the servo to reach the position
 
