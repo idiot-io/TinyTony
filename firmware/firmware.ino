@@ -29,6 +29,7 @@
 
 #include "SoftwareServo.h"
 SoftwareServo softServo;  // create servo object to control a servo
+int prevServoPos;
 
 #include "SendOnlySoftwareSerial.h"
 SendOnlySoftwareSerial softSerial (TXPIN);  // Tx pin
@@ -53,27 +54,37 @@ void setup() {
 
 
 void loop()  {
+
   if (irrecv.decode(&results)) {
-    if (1) {
+
+    softSerial.print(F("result = 0x"));
+    softSerial.println(results.value, HEX);
+
+    if (results.value == 0xFFA25D)  {
+      softSerial.println("yes");
+    } else if (results.value ==  0xFFFFFFFF) {
+      softSerial.println("yess");
+
+    }
+    else {
+      softSerial.println("No");
+    }
+    /*
+      if (1) {
       if (millis() - lastPressTime > 150) {
-        //state = 1 - state;
         softSerial.println(results.value, HEX);
       }
       lastPressTime = millis();
-    }
+      }
+    */
     irrecv.resume(); // Receive the next value
   }
-  /*
-    if (irrecv.decode(&results)) {
-      softSerial.println(results.value, HEX);
-      irrecv.resume(); // Receive the next value
-    }
-  */
+
   int servoPos;
   int potValue = analogRead(POTPIN);              // Read voltage on potentiometer
 
   // map the range of pot to limited map range on the servo.
-  // we are only intrested in naoorw band of the full range.
+  // a narrow band of the full range.
   // in both directions, with a stop space in middle
 
   if ( potValue < 350 ) {
@@ -83,15 +94,20 @@ void loop()  {
   } else {
     servoPos = 82; //86 with the 880
   }
+
+
   //to calibrate override the above
   //servoPos = map(potValue, 0, 1024, 0, 179);
-  /*
+  if (servoPos != prevServoPos) {
     softSerial.print(servoPos);
     softSerial.print(" ");
     softSerial.println(potValue);
     softServo.write(servoPos);
 
-  */
+  }
+  prevServoPos = servoPos;
+
+
   SoftwareServo::refresh();
   delay(15);                              // waits 15ms for the servo to reach the position
 
