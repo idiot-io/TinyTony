@@ -23,26 +23,27 @@
 
 #define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
 #define POTPIN   A3  // Potentiometer on A3
-#define TXPIN 1
-#define RECVPIN  4 //ir reciver data pin 0isfortimer
+#define TXPIN 1 // tested on PB1/PB4
+#define RECVPIN  4 //ir reciver data pin , tested on PB1/PB4
 
 #include "SoftwareServo.h"
-SoftwareServo myServo1;  // create servo object to control a servo
+SoftwareServo softServo;  // create servo object to control a servo
 
 #include "SendOnlySoftwareSerial.h"
-SendOnlySoftwareSerial mySerial (TXPIN);  // Tx pin
+SendOnlySoftwareSerial softSerial (TXPIN);  // Tx pin
 
 #include "tiny_IRremote.h"
 IRrecv irrecv(RECVPIN);
 decode_results results;
 
 void setup() {
+  irrecv.enableIRIn();
 
-  mySerial.begin(9600);
-  mySerial.println("hell");
+  softSerial.begin(9600);
+  softSerial.println("hell");
 
-  myServo1.attach(SERVO1PIN);
-  myServo1.setMaximumPulse(2200);
+  softServo.attach(SERVO1PIN);
+  softServo.setMaximumPulse(2200);
 
   delay(15);
 }
@@ -53,7 +54,7 @@ void loop()  {
 
 
   if (irrecv.decode(&results)) {
-    Serial.println(results.value, HEX);
+    softSerial.println(results.value, HEX);
     irrecv.resume(); // Receive the next value
   }
 
@@ -65,19 +66,19 @@ void loop()  {
   // in both directions, with a stop space in middle
 
   if ( potValue < 350 ) {
-    servoPos = map(potValue, 0, 350, 20, 83); //the88p0 has less 
+    servoPos = map(potValue, 0, 350, 20, 80); //the88p0 has less
   } else if (potValue > 650) {
-    servoPos = map(potValue, 1024, 650, 140, 89);
+    servoPos = map(potValue, 1024, 650, 150, 90);
   } else {
     servoPos = 82; //86 with the 880
   }
   //to calibrate override the above
   //servoPos = map(potValue, 0, 1024, 0, 179);
 
-  mySerial.print(servoPos);
-  mySerial.print(" ");
-  mySerial.println(potValue);
-  myServo1.write(servoPos);
+  softSerial.print(servoPos);
+  softSerial.print(" ");
+  softSerial.println(potValue);
+  softServo.write(servoPos);
 
 
   SoftwareServo::refresh();
