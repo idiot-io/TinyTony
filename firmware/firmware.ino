@@ -37,7 +37,10 @@ SendOnlySoftwareSerial softSerial (TXPIN);  // Tx pin
 #include "tiny_IRremote.h"
 IRrecv irrecv(RECVPIN);
 decode_results results;
+unsigned long  prevValue;
 long lastPressTime = 0;
+
+int pos_middle = 82;
 
 void setup() {
   irrecv.enableIRIn();
@@ -51,33 +54,28 @@ void setup() {
   delay(15);
 }
 
-
-
 void loop()  {
-
   if (irrecv.decode(&results)) {
-
-    softSerial.print(F("result = 0x"));
-    softSerial.println(results.value, HEX);
-
-    if (results.value == 0xFFA25D)  {
-      softSerial.println("yes");
-    } else if (results.value ==  0xFFFFFFFF) {
-      softSerial.println("yess");
-
-    }
-    else {
-      softSerial.println("No");
-    }
-    /*
-      if (1) {
-      if (millis() - lastPressTime > 150) {
+    switch (results.value) {
+      case 0xFFA25D:
+        softSerial.println("CH-");
+        pos_middle--;
+        break;
+      case 0xFFE21D:
+        softSerial.println("CH+");
+        pos_middle++;
+        break;
+      case 0xFF629D:
+        softSerial.println("CH");
+        break;
+      case 0xFFFFFFFF:
+        break;
+      default:
+        softSerial.print(F("unknown = 0x"));
         softSerial.println(results.value, HEX);
-      }
-      lastPressTime = millis();
-      }
-    */
+    }
     irrecv.resume(); // Receive the next value
+
   }
 
   int servoPos;
@@ -92,7 +90,7 @@ void loop()  {
   } else if (potValue > 650) {
     servoPos = map(potValue, 1024, 650, 150, 90);
   } else {
-    servoPos = 82; //86 with the 880
+    servoPos = pos_middle ;// 82; //86 with the 880
   }
 
 
@@ -103,13 +101,9 @@ void loop()  {
     softSerial.print(" ");
     softSerial.println(potValue);
     softServo.write(servoPos);
-
   }
   prevServoPos = servoPos;
 
-
   SoftwareServo::refresh();
   delay(15);                              // waits 15ms for the servo to reach the position
-
-
 }
