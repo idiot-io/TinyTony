@@ -39,8 +39,10 @@ IRrecv irrecv(RECVPIN);
 decode_results results;
 unsigned long  prevValue;
 
-int pos_middle = 82;
-
+int pos_middle = 80;
+int servoPos;
+int potValue; 
+  
 float x_1,x_2, y;
 
 void setup() {
@@ -60,14 +62,17 @@ void loop()  {
     switch (results.value) {
       case 0xFFA25D:
         softSerial.println("CH-");
-        pos_middle--;
+        pos_middle-=1;
+        printdebug();
         break;
       case 0xFFE21D:
         softSerial.println("CH+");
-        pos_middle++;
+        pos_middle+=1;
+        printdebug();
         break;
-      case 0xFF629D: //CH
-        softSerial.println(pos_middle);
+      case 0xFF629D: 
+        softSerial.println("CH");
+        printdebug();
         break;
       case 0xFFFFFFFF:
         break;
@@ -79,31 +84,36 @@ void loop()  {
 
   }
 
-  int servoPos;
-  int potValue = analogRead(POTPIN);              // Read voltage on potentiometer
+  potValue = analogRead(POTPIN);              // Read voltage on potentiometer
  
   //smoothing
   y = 0.10*potValue +0.75*y;
-  servoPos = y ; /// 4;
-  //servoPos = map(servoPos , 0, 409, 0, 179);
-  servoPos = map(servoPos , 0, 1024, 0, 179);
-  //servoPos = map(y , 0, 1024, 0, 179);
+  servoPos = (y+pos_middle)/4 ;;
 
+  if ( (servoPos > 70) && (servoPos < 85)) {
+    servoPos = pos_middle ;// 82; //86 with the 880
+  }
   
   if (millis() - prevValue >= 15) {
     prevValue = millis();
-  /*
     softServo.write(servoPos);
     SoftwareServo::refresh();
- 
- 	*/
-    //if (servoPos != prevServoPos) 
-      softSerial.print(servoPos);softSerial.print(" ");softSerial.println(potValue);
-    //prevServoPos = servoPos;
-  
+	//printdebug();
   }
 
 }
+
+void printdebug(){
+	//softSerial.println("pos_middle	servoPos	potValue");
+	
+	softSerial.print(pos_middle);
+	softSerial.print("	");
+	softSerial.print(servoPos);
+	softSerial.print("	");
+	softSerial.print(potValue);
+    softSerial.println();
+}
+
 
 /* // map the range of pot to limited map range on the servo.
   // a narrow band of the full range.
