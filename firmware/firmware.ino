@@ -21,7 +21,7 @@
  
  
   ==calibration==
-  the system has an intial guess for calibration, 
+  the system has an initial guess for calibration, 
   but you will need to fine tune it to compensate 
   for diffrent material and lighting
 
@@ -35,8 +35,8 @@
   *trim
   press [-] and [+] to subtract/add to trim value
     after fine-tune you will have to trim the motor middle point
-    press until the motor doesnt turn or twitch in uncovered state.
-    ussualy no more then -/+10 is needed. 
+    press until the motor doesn't turn or twitch in uncovered state.
+    usually no more then -/+10 is needed. 
 
   *store
   to put your settings in deep memory press the [200+] key
@@ -73,8 +73,9 @@ struct settings {
   int midval;
   int maxval; 
   int trim;
+  int senestivity;
 };
-settings set01 = {50,200,400,0 };
+settings set01 = {50,200,400,0,20 };
 
 int servoPos;
 int potValue, tmpval;
@@ -107,37 +108,49 @@ void loop()  {
   if (irrecv.decode(&results)) {
     switch (results.value) {
       case 0xFFA25D:
-        softSerial.println("CH-");
+        //softSerial.println("CH-");
 	      set01.minval = servoPos;
         printdebug();
         break;
 
       case 0xFF629D: 
-        softSerial.println("CH");
+       // softSerial.println("CH");
 	      set01.midval = servoPos;
         printdebug();
         break;
         
       case 0xFFE21D:
-        softSerial.println("CH+");
+        //softSerial.println("CH+");
         set01.maxval = servoPos;
         printdebug();
         break;
 
       case 0xFFE01F:
-        softSerial.println("-");
+        //softSerial.println("-");
         set01.trim++;
         printdebug();
         break;
 
       case 0xFFA857:
-        softSerial.println("+");
+        //softSerial.println("+");
         set01.trim--;
         printdebug();
         break;
 
+      case 0xFF22DD:
+        //softSerial.println("<");
+        set01.senestivity -= 10;
+        printdebug();
+        break;
+        
+      case 0xFF02FD:
+        ////softSerial.println(">");
+        set01.senestivity += 10;
+        printdebug();
+        break;
+
       case 0xFF52AD:
-        softSerial.println("9");
+        //softSerial.println("9");
         if (graph_state)
           graph_state=0;
         else 
@@ -146,21 +159,21 @@ void loop()  {
         break;
 
       case 0xFF6897:
-        softSerial.println();
-        softSerial.println("0");
-        set01 = {50,200,500,0 };
+        //softSerial.println();
+        //softSerial.println("0");
+        set01 = {50,200,500,0, 20 };
         printdebug();
         break;
 
       case 0xFF906F:
-        softSerial.println();
-        softSerial.println("EQ");
+        //softSerial.println();
+        //softSerial.println("EQ");
         printdebug();
         break;
 
       case 0xFFB04F:
-        softSerial.println();
-        softSerial.println("200");
+        //softSerial.println();
+        //softSerial.println("200");
         EEPROM.put(0, set01);
         printdebug();
         break;
@@ -201,13 +214,13 @@ void loop()  {
 
 int mapped(int input){
 	int output;
-  if ( (input >= (set01.midval - 20) ) && (input <= (set01.midval + 20)) ){
+  if ( (input >= (set01.midval - set01.senestivity) ) && (input <= (set01.midval + set01.senestivity)) ){
 		output = 90-set01.trim ;
     digitalWrite(LEDPIN, HIGH);
-	  } else if (input < (set01.midval - 20)){
+	  } else if (input < (set01.midval - set01.senestivity)){
 		output = map(input, set01.minval, set01.midval, 0, 90-set01.trim   );
     digitalWrite(LEDPIN, LOW);
-    }else if(input > (set01.midval + 20)){
+    }else if(input > (set01.midval + set01.senestivity)){
 		output = map(input, set01.midval, set01.maxval, 90-set01.trim  , 179 );
     digitalWrite(LEDPIN, LOW);	
   }
@@ -232,7 +245,7 @@ void printGraph(){
 
 //void printdebug(){};
 void printdebug(){
-	//softSerial.println("minval  midval maxval  trim servopos");
+	//softSerial.println("minval  midval maxval  trim sensitivity servopos");
 	softSerial.print(set01.minval);
 	softSerial.print("  ");
 	softSerial.print(set01.midval);
@@ -240,6 +253,8 @@ void printdebug(){
 	softSerial.print(set01.maxval);
   softSerial.print("  ");
 	softSerial.print(set01.trim);
+  softSerial.print("  ");
+	softSerial.print(set01.senestivity);
   softSerial.print("  ");
 	softSerial.print(servoPos);
 	//softSerial.println("tmpval	servoPos	potValue");
