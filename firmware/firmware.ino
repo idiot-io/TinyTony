@@ -45,7 +45,19 @@
 
   *info
   if DEBUG is on you can use the [EQ] button to watch your settings
-  you will need a serial pin connected to pin6 
+  you will need a serial RX line connected to pin6 (TX)
+
+  
+  *sensitivity 
+    [PREV] AND [NEXT] keys set the minimal motion trashold 
+
+  == usage ==
+  === setups ==
+  *LDRx2 - voltage divider
+  *LINEAR - fixed side
+
+
+
  *******************************************************************/
 
 #include <EEPROM.h>
@@ -74,8 +86,9 @@ struct settings {
   int maxval; 
   int trim;
   int senestivity;
+  int MaximumPulse;
 };
-settings set01 = {50,200,400,0,20 };
+settings set01 = {50,200,400,0,20, 2200 };
 
 int servoPos;
 int potValue, tmpval;
@@ -98,7 +111,7 @@ void setup() {
   
 
   softServo.attach(SERVO1PIN);
-  softServo.setMaximumPulse(2000);
+  softServo.setMaximumPulse(set01.MaximumPulse);
 
   delay(15);
 }
@@ -159,20 +172,17 @@ void loop()  {
         break;
 
       case 0xFF6897:
-        //softSerial.println();
         //softSerial.println("0");
         set01 = {50,200,500,0, 20 };
         printdebug();
         break;
 
       case 0xFF906F:
-        //softSerial.println();
         //softSerial.println("EQ");
         printdebug();
         break;
 
       case 0xFFB04F:
-        //softSerial.println();
         //softSerial.println("200");
         EEPROM.put(0, set01);
         printdebug();
