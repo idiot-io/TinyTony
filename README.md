@@ -68,7 +68,6 @@ EEPROM -used supplied one.
 [SendOnlySoftwareSerial](https://forum.arduino.cc/index.php?topic=112013.msg841582#msg841582)  
 [tiny_ir](https://gist.github.com/SeeJayDee/caa9b5cc29246df44e45b8e7d1b1cdc5) , and [ir_methods](https://github.com/z3t0/Arduino-IRremote/wiki/Receiving-with-the-IRremote-library)  
 
-[attiny85 pinout](https://camo.githubusercontent.com/081b569122da2244ff7de8bae15eb56947d05cc8/687474703a2f2f6472617a7a792e636f6d2f652f696d672f50696e6f7574543835612e6a7067  )
 
 ### Hardware
 check the PDF folder in this git to get datasheetsfor parts
@@ -81,3 +80,4 @@ RST    -1+----+8-   VCC
 4/IR   -3|    |6-   1/SERIAL  
 GND    -4+----+5-   0/SERVO  
 ```
+[attiny85 pinout complete](https://camo.githubusercontent.com/081b569122da2244ff7de8bae15eb56947d05cc8/687474703a2f2f6472617a7a792e636f6d2f652f696d672f50696e6f7574543835612e6a7067  )
