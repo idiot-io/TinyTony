@@ -2,13 +2,12 @@
 words http://idiot.io   
 code https://github.com/shenkarSElab/TinyTony 
 
-### pinout of ATtiny85  
-```
-RST    -1+----+8-   VCC  
-3/LDR  -2|    |7-   2/PWM  
-4/IR   -3|    |6-   1/SERIAL  
-GND    -4+----+5-   0/SERVO  
-```
+
+#### TOC
+* [Usage](#usage)
+* [Calibration](#calibration)
+* [Firmware](#firmware)
+* [Hardware](#hardware)
 
 ### Usage 
 to run Tony you need follow the connection diagram, and an ir remote for calibration.  **no coding is nessecery**
@@ -64,7 +63,7 @@ to upload new firmware you will need
 most of the libraries are included and referanced from the firmware folder.
 
 [ATTinyCore](https://github.com/SpenceKonde/ATTinyCore)  
-[EEPROM] -used supplied one. 
+EEPROM -used supplied one.   
 [sofServo](http://playground.arduino.cc/ComponentLib/Servo)  
 [SendOnlySoftwareSerial](https://forum.arduino.cc/index.php?topic=112013.msg841582#msg841582)  
 [tiny_ir](https://gist.github.com/SeeJayDee/caa9b5cc29246df44e45b8e7d1b1cdc5) , and [ir_methods](https://github.com/z3t0/Arduino-IRremote/wiki/Receiving-with-the-IRremote-library)  
@@ -73,3 +72,12 @@ most of the libraries are included and referanced from the firmware folder.
 
 ### Hardware
 check the PDF folder in this git to get datasheetsfor parts
+
+
+#### pinout of ATtiny85  
+```
+RST    -1+----+8-   VCC  
+3/LDR  -2|    |7-   2/PWM  
+4/IR   -3|    |6-   1/SERIAL  
+GND    -4+----+5-   0/SERVO  
+```
