@@ -107,11 +107,17 @@ void setup() {
   softSerial.println("reboot");
   
   EEPROM.get(0, set01);
-  printdebug();
+  //make sure we dont get null values for maxpulse
+  if(set01.MaximumPulse<=0 )
+  {
+    set01.MaximumPulse = 2100;
+    printdebug();
+  }
   
 
   softServo.attach(SERVO1PIN);
   softServo.setMaximumPulse(set01.MaximumPulse);
+  //softServo.setMaximumPulse(2200);
 
   delay(15);
 }
@@ -171,10 +177,23 @@ void loop()  {
           
         break;
 
+      case 0xFF42BD:
+        ////softSerial.println("7");
+        set01.MaximumPulse -= 50;
+        softServo.setMaximumPulse(set01.MaximumPulse);
+        printdebug();
+        break;
+      case 0xFF4AB5:
+        ////softSerial.println("8");
+        set01.MaximumPulse += 50;
+        softServo.setMaximumPulse(set01.MaximumPulse);
+        printdebug();
+        break;
+
       case 0xFF6897:
         //softSerial.println("0");
         set01 = {50,200,500,0, 20 };
-        printdebug();
+        printdebug();	
         break;
 
       case 0xFF906F:
@@ -191,10 +210,7 @@ void loop()  {
       case 0xFFFFFFFF:
         break;
 
-      default:
-        softSerial.print(F("0x"));
-        softSerial.println(results.value, HEX);
-    }
+          }
             
 
     irrecv.resume();
@@ -206,6 +222,7 @@ void loop()  {
   //smoothing
   y = 0.10*potValue +0.75*y;
   servoPos = int(y)  ;
+  servoPos = servoPos - set01.midval;
   tmpval = int(mapped(servoPos));
   tmpval = constrain(tmpval, 0, 179);
 
@@ -216,7 +233,7 @@ void loop()  {
     SoftwareServo::refresh();
     
 	  //printdebug();
-    //printGraph();
+    printGraph();
   }
 
 }
@@ -231,31 +248,31 @@ int mapped(int input){
 		output = map(input, set01.minval, set01.midval, 0, 90-set01.trim   );
     digitalWrite(LEDPIN, LOW);
     }else if(input > (set01.midval + set01.senestivity)){
-		output = map(input, set01.midval, set01.maxval, 90-set01.trim  , 179 );
+		output = map(input, set01.midval, set01.maxval, 179, 90-set01.trim  );
     digitalWrite(LEDPIN, LOW);	
   }
 	return output;
 }
 
-void printGraph(){};
-
-  /*
+//void printGraph(){};
 void printGraph(){
   if(graph_state){
     softSerial.print(tmpval);
 	  softSerial.print("	");
-	  softSerial.print(servoPos);
-	  softSerial.print("	");
-	  softSerial.print(potValue);
+	  softSerial.print(int(servoPos));
+	  //softSerial.print("	");
+	  //softSerial.print(potValue);
     softSerial.println();
   }
 }
+void printdebug(){};
 
-*/
+/*
 
-//void printdebug(){};
+/*
 void printdebug(){
 	//softSerial.println("minval  midval maxval  trim sensitivity servopos");
+  /*
 	softSerial.print(set01.minval);
 	softSerial.print("  ");
 	softSerial.print(set01.midval);
@@ -266,6 +283,8 @@ void printdebug(){
   softSerial.print("  ");
 	softSerial.print(set01.senestivity);
   softSerial.print("  ");
+	softSerial.print(set01.MaximumPulse);
+  softSerial.print("  ");
 	softSerial.print(servoPos);
 	//softSerial.println("tmpval	servoPos	potValue");
 	//softSerial.print(tmpval);
@@ -275,3 +294,5 @@ void printdebug(){
   softSerial.println();
 
 }
+*/
+  
