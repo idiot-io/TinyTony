@@ -54,3 +54,4 @@ dkms.conf
 #eagle
 *.s#*
 *.b#*
+*.l#*
