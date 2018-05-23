@@ -14,8 +14,8 @@
    viewBox="0 0 38.099998 29.236458"
    version="1.1"
    id="svg4185"
-   inkscape:version="0.92.0 r15299"
-   sodipodi:docname="TinyTonyV1.3.svg">
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="TinyTonyV1.22.svg">
   <defs
      id="defs4179" />
   <sodipodi:namedview
@@ -25,23 +25,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.086133"
-     inkscape:cx="102.8438"
-     inkscape:cy="64.164689"
+     inkscape:zoom="11.557329"
+     inkscape:cx="89.783108"
+     inkscape:cy="26.896381"
      inkscape:document-units="mm"
-     inkscape:current-layer="text10353"
+     inkscape:current-layer="gge210"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false">
     <sodipodi:guide
        position="15.088242,2.9770523"
        orientation="0,1"
@@ -76,7 +77,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -480,7 +481,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="top"
-     style="display:none">
+     style="display:inline">
     <g
        layerid="1"
        c_etype="pinpart"
@@ -509,7 +510,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7360"
-           points="4043.45,2953.55 4037.35,2953.55 4037.35,2951.45 4043.45,2951.45 "
+           points="4037.35,2951.45 4043.45,2951.45 4043.45,2953.55 4037.35,2953.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7362"
@@ -536,7 +537,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7365"
-           points="4043.45,2958.55 4037.35,2958.55 4037.35,2956.45 4043.45,2956.45 "
+           points="4037.35,2956.45 4043.45,2956.45 4043.45,2958.55 4037.35,2958.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7367"
@@ -563,7 +564,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7370"
-           points="4043.45,2963.55 4037.35,2963.55 4037.35,2961.45 4043.45,2961.45 "
+           points="4037.35,2961.45 4043.45,2961.45 4043.45,2963.55 4037.35,2963.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7372"
@@ -590,7 +591,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7375"
-           points="4043.45,2968.55 4037.35,2968.55 4037.35,2966.45 4043.45,2966.45 "
+           points="4037.35,2966.45 4043.45,2966.45 4043.45,2968.55 4037.35,2968.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7377"
@@ -617,7 +618,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7380"
-           points="4072.65,2968.55 4066.55,2968.55 4066.55,2966.45 4072.65,2966.45 "
+           points="4066.55,2966.45 4072.65,2966.45 4072.65,2968.55 4066.55,2968.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7382"
@@ -644,7 +645,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7385"
-           points="4072.65,2963.55 4066.55,2963.55 4066.55,2961.45 4072.65,2961.45 "
+           points="4066.55,2961.45 4072.65,2961.45 4072.65,2963.55 4066.55,2963.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7387"
@@ -671,7 +672,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7390"
-           points="4072.65,2958.55 4066.55,2958.55 4066.55,2956.45 4072.65,2956.45 "
+           points="4066.55,2956.45 4072.65,2956.45 4072.65,2958.55 4066.55,2958.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7392"
@@ -698,7 +699,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7395"
-           points="4072.65,2953.55 4066.55,2953.55 4066.55,2951.45 4072.65,2951.45 "
+           points="4066.55,2951.45 4072.65,2951.45 4072.65,2953.55 4066.55,2953.55 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7397"
@@ -737,7 +738,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7401"
-           points="4078.607,2961.216 4084.394,2961.216 4084.394,2965.783 4078.607,2965.783 "
+           points="4084.394,2965.783 4078.607,2965.783 4078.607,2961.216 4084.394,2961.216 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7403"
@@ -764,7 +765,7 @@
          style="fill:#ff0000;stroke:#ff0000">
         <polygon
            id="polygon7406"
-           points="4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 "
+           points="4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 "
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
         <circle
            id="circle7408"
@@ -803,7 +804,7 @@
          c_shape="RECT">
         <polygon
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4095.394,2965.783 4089.607,2965.783 4089.607,2961.216 4095.394,2961.216 "
+           points="4089.607,2961.216 4095.394,2961.216 4095.394,2965.783 4089.607,2965.783 "
            id="polygon7412" />
         <circle
            style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
@@ -830,7 +831,7 @@
          c_shape="RECT">
         <polygon
            style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4095.394,2957.783 4089.607,2957.783 4089.607,2953.216 4095.394,2953.216 "
+           points="4089.607,2953.216 4095.394,2953.216 4095.394,2957.783 4089.607,2957.783 "
            id="polygon7417" />
         <circle
            style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
@@ -841,116 +842,119 @@
       </g>
     </g>
     <g
-       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755"
-       c_partid="part_pad"
-       c_etype="pinpart"
-       c_origin="4081.5,2955.5"
-       layerid="1"
-       number="2"
-       net="VCC"
-       plated="Y"
-       c_shapetype="group"
-       id="g7196"
-       c_rotation="90"
-       c_width="4.567"
-       c_height="5.787"
-       title="VCC"
-       c_shape="RECT"
-       transform="matrix(0.43826827,0,0,0.52105887,-1782.119,-1533.4072)">
-      <polygon
-         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-         points="4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 "
-         id="polygon7192" />
-      <circle
-         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
-         cx="4081.5"
-         cy="2955.5"
-         r="0.001"
-         id="circle7194" />
-    </g>
-    <g
-       transform="matrix(0.43826827,0,0,0.52105887,-1782.119,-1530.27)"
-       c_shape="RECT"
-       title="VCC"
-       c_height="5.787"
-       c_width="4.567"
-       c_rotation="90"
-       id="g8079"
-       c_shapetype="group"
-       plated="Y"
-       net="VCC"
-       number="2"
-       layerid="1"
-       c_origin="4081.5,2955.5"
-       c_etype="pinpart"
-       c_partid="part_pad"
-       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
-      <polygon
-         id="polygon8075"
-         points="4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 "
-         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
-      <circle
-         id="circle8077"
-         r="0.001"
-         cy="2955.5"
-         cx="4081.5"
-         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
-    </g>
-    <g
-       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755"
-       c_partid="part_pad"
-       c_etype="pinpart"
-       c_origin="4081.5,2955.5"
-       layerid="1"
-       number="2"
-       net="VCC"
-       plated="Y"
-       c_shapetype="group"
-       id="g8085"
-       c_rotation="90"
-       c_width="4.567"
-       c_height="5.787"
-       title="VCC"
-       c_shape="RECT"
-       transform="matrix(0.43826827,0,0,0.52105887,-1782.138,-1527.1709)">
-      <polygon
-         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-         points="4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 "
-         id="polygon8081" />
-      <circle
-         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
-         cx="4081.5"
-         cy="2955.5"
-         r="0.001"
-         id="circle8083" />
-    </g>
-    <g
-       transform="matrix(0.43826827,0,0,0.52105887,-1782.138,-1524.0908)"
-       c_shape="RECT"
-       title="VCC"
-       c_height="5.787"
-       c_width="4.567"
-       c_rotation="90"
-       id="g8091"
-       c_shapetype="group"
-       plated="Y"
-       net="VCC"
-       number="2"
-       layerid="1"
-       c_origin="4081.5,2955.5"
-       c_etype="pinpart"
-       c_partid="part_pad"
-       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
-      <polygon
-         id="polygon8087"
-         points="4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 "
-         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
-      <circle
-         id="circle8089"
-         r="0.001"
-         cy="2955.5"
-         cx="4081.5"
-         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
+       id="g1280">
+      <g
+         transform="matrix(0.43826827,0,0,0.52105887,-1782.119,-1533.4072)"
+         c_shape="RECT"
+         title="VCC"
+         c_height="5.787"
+         c_width="4.567"
+         c_rotation="90"
+         id="g7196"
+         c_shapetype="group"
+         plated="Y"
+         net="VCC"
+         number="2"
+         layerid="1"
+         c_origin="4081.5,2955.5"
+         c_etype="pinpart"
+         c_partid="part_pad"
+         style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
+        <polygon
+           id="polygon7192"
+           points="4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 "
+           style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+        <circle
+           id="circle7194"
+           r="0.001"
+           cy="2955.5"
+           cx="4081.5"
+           style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
+      </g>
+      <g
+         style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755"
+         c_partid="part_pad"
+         c_etype="pinpart"
+         c_origin="4081.5,2955.5"
+         layerid="1"
+         number="2"
+         net="VCC"
+         plated="Y"
+         c_shapetype="group"
+         id="g8079"
+         c_rotation="90"
+         c_width="4.567"
+         c_height="5.787"
+         title="VCC"
+         c_shape="RECT"
+         transform="matrix(0.43826827,0,0,0.52105887,-1782.119,-1530.27)">
+        <polygon
+           style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+           points="4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 "
+           id="polygon8075" />
+        <circle
+           style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
+           cx="4081.5"
+           cy="2955.5"
+           r="0.001"
+           id="circle8077" />
+      </g>
+      <g
+         transform="matrix(0.43826827,0,0,0.52105887,-1782.138,-1527.1709)"
+         c_shape="RECT"
+         title="VCC"
+         c_height="5.787"
+         c_width="4.567"
+         c_rotation="90"
+         id="g8085"
+         c_shapetype="group"
+         plated="Y"
+         net="VCC"
+         number="2"
+         layerid="1"
+         c_origin="4081.5,2955.5"
+         c_etype="pinpart"
+         c_partid="part_pad"
+         style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
+        <polygon
+           id="polygon8081"
+           points="4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 "
+           style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+        <circle
+           id="circle8083"
+           r="0.001"
+           cy="2955.5"
+           cx="4081.5"
+           style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
+      </g>
+      <g
+         style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755"
+         c_partid="part_pad"
+         c_etype="pinpart"
+         c_origin="4081.5,2955.5"
+         layerid="1"
+         number="2"
+         net="VCC"
+         plated="Y"
+         c_shapetype="group"
+         id="g8091"
+         c_rotation="90"
+         c_width="4.567"
+         c_height="5.787"
+         title="VCC"
+         c_shape="RECT"
+         transform="matrix(0.43826827,0,0,0.52105887,-1782.138,-1524.0908)">
+        <polygon
+           style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+           points="4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 "
+           id="polygon8087" />
+        <circle
+           style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
+           cx="4081.5"
+           cy="2955.5"
+           r="0.001"
+           id="circle8089" />
+      </g>
     </g>
     <g
        style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.50285655"
@@ -971,7 +975,7 @@
        transform="matrix(0.43826827,0,0,0.63167936,-1782.138,-1847.6018)">
       <polygon
          style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-         points="4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 "
+         points="4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 "
          id="polygon8093" />
       <circle
          style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
@@ -999,10 +1003,151 @@
        style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.50285655">
       <polygon
          id="polygon8099"
-         points="4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 "
+         points="4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 "
          style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
       <circle
          id="circle8101"
+         r="0.001"
+         cy="2955.5"
+         cx="4081.5"
+         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755"
+       c_partid="part_pad"
+       c_etype="pinpart"
+       c_origin="4081.5,2955.5"
+       layerid="1"
+       number="2"
+       net="VCC"
+       plated="Y"
+       c_shapetype="group"
+       id="g7196-3"
+       c_rotation="90"
+       c_width="4.567"
+       c_height="5.787"
+       title="VCC"
+       c_shape="RECT"
+       transform="matrix(0.43826827,0,0,0.52105888,-1757.6046,-1533.3997)">
+      <polygon
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+         points="4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 "
+         id="polygon7192-6" />
+      <circle
+         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
+         cx="4081.5"
+         cy="2955.5"
+         r="0.001"
+         id="circle7194-7" />
+    </g>
+    <g
+       transform="matrix(0.43826827,0,0,0.52105888,-1757.6046,-1530.2625)"
+       c_shape="RECT"
+       title="VCC"
+       c_height="5.787"
+       c_width="4.567"
+       c_rotation="90"
+       id="g8079-5"
+       c_shapetype="group"
+       plated="Y"
+       net="VCC"
+       number="2"
+       layerid="1"
+       c_origin="4081.5,2955.5"
+       c_etype="pinpart"
+       c_partid="part_pad"
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
+      <polygon
+         id="polygon8075-3"
+         points="4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 4078.607,2957.783 "
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         id="circle8077-5"
+         r="0.001"
+         cy="2955.5"
+         cx="4081.5"
+         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755"
+       c_partid="part_pad"
+       c_etype="pinpart"
+       c_origin="4081.5,2955.5"
+       layerid="1"
+       number="2"
+       net="VCC"
+       plated="Y"
+       c_shapetype="group"
+       id="g8085-6"
+       c_rotation="90"
+       c_width="4.567"
+       c_height="5.787"
+       title="VCC"
+       c_shape="RECT"
+       transform="matrix(0.43826827,0,0,0.52105888,-1757.6236,-1527.1634)">
+      <polygon
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+         points="4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 4084.394,2957.783 "
+         id="polygon8081-2" />
+      <circle
+         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges"
+         cx="4081.5"
+         cy="2955.5"
+         r="0.001"
+         id="circle8083-9" />
+    </g>
+    <g
+       transform="matrix(0.43826827,0,0,0.52105888,-1757.6236,-1524.0833)"
+       c_shape="RECT"
+       title="VCC"
+       c_height="5.787"
+       c_width="4.567"
+       c_rotation="90"
+       id="g8091-1"
+       c_shapetype="group"
+       plated="Y"
+       net="VCC"
+       number="2"
+       layerid="1"
+       c_origin="4081.5,2955.5"
+       c_etype="pinpart"
+       c_partid="part_pad"
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
+      <polygon
+         id="polygon8087-2"
+         points="4084.394,2957.783 4078.607,2957.783 4078.607,2953.216 4084.394,2953.216 "
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
+      <circle
+         id="circle8089-7"
+         r="0.001"
+         cy="2955.5"
+         cx="4081.5"
+         style="fill:#222222;stroke-width:0;shape-rendering:crispEdges" />
+    </g>
+    <g
+       transform="matrix(0.4928153,0,0,0.51574208,-1980.255,-1505.3856)"
+       c_shape="RECT"
+       title="VCC"
+       c_height="5.787"
+       c_width="4.567"
+       c_rotation="90"
+       id="g8091-1-0"
+       c_shapetype="group"
+       plated="Y"
+       net="VCC"
+       number="2"
+       layerid="1"
+       c_origin="4081.5,2955.5"
+       c_etype="pinpart"
+       c_partid="part_pad"
+       style="display:inline;fill:#ff0000;stroke:#ff0000;stroke-width:0.55366755">
+      <path
+         style="stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+         d="m 4084.1321,2953.4277 v 4.1119 h -5.2779 v -4.1119 z"
+         id="polygon8087-2-9"
+         inkscape:connector-curvature="0" />
+      <circle
+         id="circle8089-7-3"
          r="0.001"
          cy="2955.5"
          cx="4081.5"
@@ -1667,20 +1812,6 @@
          layerid="3"
          c_shapetype="line"
          points="4092.5 2970.5 4092 2970.5 4092.5 2971 4092.5 2970.5 4093 2970 4093 2972 4093.5 2972.5 4093.5 2970 4093 2970 4091 2970 4091.5 2970.5 4092.5 2971.5 4093 2972"
-         style="fill:none;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
-      <polyline
-         id="gge231"
-         net=""
-         layerid="3"
-         c_shapetype="line"
-         points="4092.5 2971.5 4092.5 2971"
-         style="fill:none;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
-      <polyline
-         id="gge232"
-         net=""
-         layerid="3"
-         c_shapetype="line"
-         points="4091.5 2970.5 4092 2970.5"
          style="fill:none;stroke:#ffff00;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges" />
       <polyline
          id="gge233"
@@ -2433,7 +2564,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="botom"
-     style="display:none">
+     style="display:inline">
     <g
        layerid="1"
        c_etype="pinpart"
@@ -2537,7 +2668,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4025.15,2936.455 4025.15,2943.545 4018.85,2943.545 4018.85,2936.455 "
+           points="4018.85,2943.545 4018.85,2936.455 4025.15,2936.455 4025.15,2943.545 "
            id="polygon7283" />
         <circle
            style="fill:#0000ff;stroke:none;stroke-width:0;shape-rendering:crispEdges"
@@ -2564,7 +2695,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4036.15,2936.455 4036.15,2943.545 4029.85,2943.545 4029.85,2936.455 "
+           points="4029.85,2943.545 4029.85,2936.455 4036.15,2936.455 4036.15,2943.545 "
            id="polygon7288" />
         <circle
            style="fill:#0000ff;stroke:none;stroke-width:0;shape-rendering:crispEdges"
@@ -2603,7 +2734,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4079.35,2943.045 4079.35,2935.955 4085.65,2935.955 4085.65,2943.045 "
+           points="4085.65,2935.955 4085.65,2943.045 4079.35,2943.045 4079.35,2935.955 "
            id="polygon7311" />
         <circle
            style="fill:#0000ff;stroke:none;stroke-width:0;shape-rendering:crispEdges"
@@ -2630,7 +2761,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4068.35,2943.045 4068.35,2935.955 4074.65,2935.955 4074.65,2943.045 "
+           points="4074.65,2935.955 4074.65,2943.045 4068.35,2943.045 4068.35,2935.955 "
            id="polygon7316" />
         <circle
            style="fill:#0000ff;stroke:none;stroke-width:0;shape-rendering:crispEdges"
@@ -2669,7 +2800,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4048.125,2921.275 4048.125,2928.725 4041.875,2928.725 4041.875,2921.275 "
+           points="4041.875,2928.725 4041.875,2921.275 4048.125,2921.275 4048.125,2928.725 "
            id="polygon7454" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2696,7 +2827,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4050.125,2928.275 4056.475,2928.275 4056.475,2929.525 4050.125,2929.525 "
+           points="4056.475,2929.525 4050.125,2929.525 4050.125,2928.275 4056.475,2928.275 "
            id="polygon7459" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2723,7 +2854,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4050.125,2926.375 4056.475,2926.375 4056.475,2927.625 4050.125,2927.625 "
+           points="4056.475,2927.625 4050.125,2927.625 4050.125,2926.375 4056.475,2926.375 "
            id="polygon7464" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2750,7 +2881,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4050.125,2924.375 4056.475,2924.375 4056.475,2925.625 4050.125,2925.625 "
+           points="4056.475,2925.625 4050.125,2925.625 4050.125,2924.375 4056.475,2924.375 "
            id="polygon7469" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2777,7 +2908,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4050.125,2922.375 4056.475,2922.375 4056.475,2923.625 4050.125,2923.625 "
+           points="4056.475,2923.625 4050.125,2923.625 4050.125,2922.375 4056.475,2922.375 "
            id="polygon7474" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2804,7 +2935,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4050.125,2920.475 4056.475,2920.475 4056.475,2921.725 4050.125,2921.725 "
+           points="4056.475,2921.725 4050.125,2921.725 4050.125,2920.475 4056.475,2920.475 "
            id="polygon7479" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2831,7 +2962,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4033.525,2928.275 4039.875,2928.275 4039.875,2929.525 4033.525,2929.525 "
+           points="4039.875,2929.525 4033.525,2929.525 4033.525,2928.275 4039.875,2928.275 "
            id="polygon7484" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2858,7 +2989,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4033.525,2926.375 4039.875,2926.375 4039.875,2927.625 4033.525,2927.625 "
+           points="4039.875,2927.625 4033.525,2927.625 4033.525,2926.375 4039.875,2926.375 "
            id="polygon7489" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2885,7 +3016,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4033.525,2924.375 4039.875,2924.375 4039.875,2925.625 4033.525,2925.625 "
+           points="4039.875,2925.625 4033.525,2925.625 4033.525,2924.375 4039.875,2924.375 "
            id="polygon7494" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2912,7 +3043,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4033.525,2922.375 4039.875,2922.375 4039.875,2923.625 4033.525,2923.625 "
+           points="4039.875,2923.625 4033.525,2923.625 4033.525,2922.375 4039.875,2922.375 "
            id="polygon7499" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2939,7 +3070,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4033.525,2920.475 4039.875,2920.475 4039.875,2921.725 4033.525,2921.725 "
+           points="4039.875,2921.725 4033.525,2921.725 4033.525,2920.475 4039.875,2920.475 "
            id="polygon7504" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -2978,7 +3109,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4071.875,2928.725 4071.875,2921.275 4078.125,2921.275 4078.125,2928.725 "
+           points="4078.125,2921.275 4078.125,2928.725 4071.875,2928.725 4071.875,2921.275 "
            id="polygon7510" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3005,7 +3136,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4069.875,2921.725 4063.525,2921.725 4063.525,2920.475 4069.875,2920.475 "
+           points="4063.525,2920.475 4069.875,2920.475 4069.875,2921.725 4063.525,2921.725 "
            id="polygon7515" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3032,7 +3163,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4069.875,2923.625 4063.525,2923.625 4063.525,2922.375 4069.875,2922.375 "
+           points="4063.525,2922.375 4069.875,2922.375 4069.875,2923.625 4063.525,2923.625 "
            id="polygon7520" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3059,7 +3190,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4069.875,2925.625 4063.525,2925.625 4063.525,2924.375 4069.875,2924.375 "
+           points="4063.525,2924.375 4069.875,2924.375 4069.875,2925.625 4063.525,2925.625 "
            id="polygon7525" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3086,7 +3217,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4069.875,2927.625 4063.525,2927.625 4063.525,2926.375 4069.875,2926.375 "
+           points="4063.525,2926.375 4069.875,2926.375 4069.875,2927.625 4063.525,2927.625 "
            id="polygon7530" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3113,7 +3244,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4069.875,2929.525 4063.525,2929.525 4063.525,2928.275 4069.875,2928.275 "
+           points="4063.525,2928.275 4069.875,2928.275 4069.875,2929.525 4063.525,2929.525 "
            id="polygon7535" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3140,7 +3271,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4086.475,2921.725 4080.125,2921.725 4080.125,2920.475 4086.475,2920.475 "
+           points="4080.125,2920.475 4086.475,2920.475 4086.475,2921.725 4080.125,2921.725 "
            id="polygon7540" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3167,7 +3298,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4086.475,2923.625 4080.125,2923.625 4080.125,2922.375 4086.475,2922.375 "
+           points="4080.125,2922.375 4086.475,2922.375 4086.475,2923.625 4080.125,2923.625 "
            id="polygon7545" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3194,7 +3325,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4086.475,2925.625 4080.125,2925.625 4080.125,2924.375 4086.475,2924.375 "
+           points="4080.125,2924.375 4086.475,2924.375 4086.475,2925.625 4080.125,2925.625 "
            id="polygon7550" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3221,7 +3352,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4086.475,2927.625 4080.125,2927.625 4080.125,2926.375 4086.475,2926.375 "
+           points="4080.125,2926.375 4086.475,2926.375 4086.475,2927.625 4080.125,2927.625 "
            id="polygon7555" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
@@ -3248,7 +3379,7 @@
          c_shape="RECT">
         <polygon
            style="fill:#0000ff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
-           points="4086.475,2929.525 4080.125,2929.525 4080.125,2928.275 4086.475,2928.275 "
+           points="4080.125,2928.275 4086.475,2928.275 4086.475,2929.525 4080.125,2929.525 "
            id="polygon7560" />
         <circle
            style="fill:#0000ff;stroke-width:0;shape-rendering:crispEdges"
