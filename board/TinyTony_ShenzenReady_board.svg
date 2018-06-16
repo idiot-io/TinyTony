@@ -23,16 +23,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="43.582014"
-     inkscape:cy="65.757958"
+     inkscape:zoom="4"
+     inkscape:cx="45.612683"
+     inkscape:cy="30.602041"
      inkscape:document-units="mm"
-     inkscape:current-layer="text10353"
+     inkscape:current-layer="g3004"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="768"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="956"
+     inkscape:window-height="1029"
+     inkscape:window-x="960"
+     inkscape:window-y="49"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -133,7 +133,7 @@
      style="display:inline"
      transform="translate(-3.2740134,-74.965051)">
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.2032;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 21.510282,87.142611 c 0,0 0.08099,-0.11634 0.142875,-0.14287 0.377825,-0.16206 1.232958,-0.0307 1.232958,-0.0307"
        id="polyline1168"
        inkscape:connector-curvature="0"
@@ -147,10 +147,10 @@
        layerid="2"
        c_shapetype="line"
        points="4070.78 2920.02 4070.78 2923.01"
-       style="fill:none;stroke:#0000ff;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.76800001;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.2032;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 15.432802,88.992051 c 0,0 0.957051,0.16211 1.391708,0 0.9466,-0.35303 1.372236,-1.6043 2.290632,-1.98469 0.713766,-0.29568 1.422082,-0.41969 2.135848,-0.12404 0.112925,0.0468 0.259292,0.25929 0.259292,0.25929"
        id="polyline1172"
        inkscape:connector-curvature="0"
@@ -163,19 +163,19 @@
        style="fill:none;stroke:#0000ff;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.2032;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 20.885865,87.933721 h 0.624417"
        id="polyline1176"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.2032;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 20.433428,87.431011 c 0,0 -0.747051,-0.13769 -1.0795,0 -0.449395,0.18616 -0.845714,0.58248 -1.031875,1.03187 -0.09348,0.22569 0,0.7329 0,0.7329"
        id="polyline1182"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssc" />
     <path
        id="polyline1186"
-       style="fill:none;stroke:#0000ff;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.2032;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 18.322053,89.195781 c 0,0 -0.786475,0.24868 -1.19351,0.2989 -0.560996,0.0692 -1.695741,8e-5 -1.695741,8e-5 m 2.889251,-0.29898 c -0.474857,6.448086 9.344667,3.232782 10.41142,4.598838 0.211221,0.294929 0.07745,4.643642 -0.244938,6.182242 -0.671936,1.640599 -0.445849,2.272849 0.46363,2.610149"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csccccc" />
@@ -194,7 +194,7 @@
        style="fill:none;stroke:#0000ff;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
+       style="fill:none;stroke:#0000ff;stroke-width:0.2032;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 30.298364,101.27578 c 0,0 0.33835,-0.48271 0.353193,-0.7624 0.11975,-2.258449 0.23831,-4.332229 -0.175445,-6.629479 -0.08094,-0.44942 -0.824865,-1.09381 -0.824865,-1.09381"
        id="polyline1206"
        inkscape:connector-curvature="0"
@@ -222,7 +222,7 @@
        id="polyline1218"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#13aa4b;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
+       style="fill:none;stroke:#13aa4b;stroke-width:0.1524;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 29.534327,95.857171 c 0,0 0.182893,-1.861969 -0.350133,-2.335667 -1.287973,-1.144615 -6.788537,-3.678099 -6.788537,-3.678099"
        id="polyline1220"
        inkscape:connector-curvature="0"
@@ -235,13 +235,13 @@
        style="fill:none;stroke:#0000ff;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1056.2268,-685.44597)" />
     <path
-       style="fill:none;stroke:#13aa4b;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
+       style="fill:none;stroke:#13aa4b;stroke-width:0.1524;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 23.746011,89.494761 c 0,0 0,-1.44891 0,-2.21192 0,-0.3025 -0.327924,-0.51541 -0.545835,-0.72496 -0.420185,-0.40407 -2.83554,-0.82227 -4.349089,-0.1983 -0.916729,0.37793 -1.187345,1.72397 -2.103438,2.10343 -0.404971,0.16775 -1.314979,0 -1.314979,0"
        id="polyline1236"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssssc" />
     <path
-       style="fill:none;stroke:#13aa4b;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
+       style="fill:none;stroke:#13aa4b;stroke-width:0.1524;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 24.217065,89.450911 H 23.764628"
        id="polyline1240"
        inkscape:connector-curvature="0" />
@@ -283,7 +283,7 @@
        style="fill:none;stroke:#0000ff;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <path
-       style="fill:none;stroke:#13aa4b;stroke-width:0.15875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
+       style="fill:none;stroke:#13aa4b;stroke-width:0.1524;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 23.746011,89.494761 c 0,0 -0.113506,0.16481 -0.201083,0.20108 -0.563854,0.23355 -1.266296,0.23172 -1.830917,0 -0.08826,-0.0362 -0.193119,-0.10626 -0.203729,-0.20108 -0.05879,-0.52586 -0.426799,-0.51441 -0.426799,-0.51441"
        id="polyline1268"
        inkscape:connector-curvature="0"
@@ -642,197 +642,203 @@
        id="path1442"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
+    <circle
+       style="display:inline;fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1191-75-6"
+       cx="19.044333"
+       cy="92.098267"
+       r="0.18099999" />
   </g>
   <g
      id="g3006"
      inkscape:groupmode="layer"
      inkscape:label="B.Mask"
-     style="display:inline"
+     style="display:none"
      transform="translate(-3.2740134,-74.965051)"
      sodipodi:insensitive="true">
     <polygon
        id="polygon1372-5"
-       points="4023.045,2935.85 4023.045,2942.15 4015.955,2942.15 4015.955,2935.85 "
+       points="4015.955,2942.15 4015.955,2935.85 4023.045,2935.85 4023.045,2942.15 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1378-7"
-       points="4023.045,2946.85 4023.045,2953.15 4015.955,2953.15 4015.955,2946.85 "
+       points="4015.955,2953.15 4015.955,2946.85 4023.045,2946.85 4023.045,2953.15 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1394-5"
-       points="4097.045,2945.85 4089.955,2945.85 4089.955,2952.15 4097.045,2952.15 "
+       points="4089.955,2952.15 4097.045,2952.15 4097.045,2945.85 4089.955,2945.85 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1056.2268,-685.44597)" />
     <polygon
        id="polygon1400-9"
-       points="4097.045,2934.85 4089.955,2934.85 4089.955,2941.15 4097.045,2941.15 "
+       points="4089.955,2941.15 4097.045,2941.15 4097.045,2934.85 4089.955,2934.85 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1056.2268,-685.44597)" />
     <polygon
        id="polygon1864-7"
-       points="4036.375,2928.725 4042.625,2928.725 4042.625,2921.275 4036.375,2921.275 "
+       points="4042.625,2921.275 4036.375,2921.275 4036.375,2928.725 4042.625,2928.725 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1870-5"
-       points="4044.625,2920.475 4044.625,2921.725 4050.975,2921.725 4050.975,2920.475 "
+       points="4050.975,2921.725 4050.975,2920.475 4044.625,2920.475 4044.625,2921.725 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1876-5"
-       points="4044.625,2922.375 4044.625,2923.625 4050.975,2923.625 4050.975,2922.375 "
+       points="4050.975,2923.625 4050.975,2922.375 4044.625,2922.375 4044.625,2923.625 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1882-7"
-       points="4044.625,2924.375 4044.625,2925.625 4050.975,2925.625 4050.975,2924.375 "
+       points="4050.975,2925.625 4050.975,2924.375 4044.625,2924.375 4044.625,2925.625 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1888-4"
-       points="4044.625,2926.375 4044.625,2927.625 4050.975,2927.625 4050.975,2926.375 "
+       points="4050.975,2927.625 4050.975,2926.375 4044.625,2926.375 4044.625,2927.625 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1896-0"
-       points="4044.625,2928.275 4044.625,2929.525 4050.975,2929.525 4050.975,2928.275 "
+       points="4050.975,2929.525 4050.975,2928.275 4044.625,2928.275 4044.625,2929.525 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1904-8"
-       points="4028.025,2920.475 4028.025,2921.725 4034.375,2921.725 4034.375,2920.475 "
+       points="4034.375,2921.725 4034.375,2920.475 4028.025,2920.475 4028.025,2921.725 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1910-8"
-       points="4028.025,2922.375 4028.025,2923.625 4034.375,2923.625 4034.375,2922.375 "
+       points="4034.375,2923.625 4034.375,2922.375 4028.025,2922.375 4028.025,2923.625 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1916-4"
-       points="4028.025,2924.375 4028.025,2925.625 4034.375,2925.625 4034.375,2924.375 "
+       points="4034.375,2925.625 4034.375,2924.375 4028.025,2924.375 4028.025,2925.625 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1922-1"
-       points="4028.025,2926.375 4028.025,2927.625 4034.375,2927.625 4034.375,2926.375 "
+       points="4034.375,2927.625 4034.375,2926.375 4028.025,2926.375 4028.025,2927.625 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1928-9"
-       points="4028.025,2928.275 4028.025,2929.525 4034.375,2929.525 4034.375,2928.275 "
+       points="4034.375,2929.525 4034.375,2928.275 4028.025,2928.275 4028.025,2929.525 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1946-0"
-       points="4078.125,2921.275 4071.875,2921.275 4071.875,2928.725 4078.125,2928.725 "
+       points="4071.875,2928.725 4078.125,2928.725 4078.125,2921.275 4071.875,2921.275 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1952-8"
-       points="4069.875,2929.525 4069.875,2928.275 4063.525,2928.275 4063.525,2929.525 "
+       points="4063.525,2928.275 4063.525,2929.525 4069.875,2929.525 4069.875,2928.275 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1958-2"
-       points="4069.875,2927.625 4069.875,2926.375 4063.525,2926.375 4063.525,2927.625 "
+       points="4063.525,2926.375 4063.525,2927.625 4069.875,2927.625 4069.875,2926.375 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1966-6"
-       points="4069.875,2925.625 4069.875,2924.375 4063.525,2924.375 4063.525,2925.625 "
+       points="4063.525,2924.375 4063.525,2925.625 4069.875,2925.625 4069.875,2924.375 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1972-9"
-       points="4069.875,2923.625 4069.875,2922.375 4063.525,2922.375 4063.525,2923.625 "
+       points="4063.525,2922.375 4063.525,2923.625 4069.875,2923.625 4069.875,2922.375 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1978-0"
-       points="4069.875,2921.725 4069.875,2920.475 4063.525,2920.475 4063.525,2921.725 "
+       points="4063.525,2920.475 4063.525,2921.725 4069.875,2921.725 4069.875,2920.475 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1984-8"
-       points="4086.475,2929.525 4086.475,2928.275 4080.125,2928.275 4080.125,2929.525 "
+       points="4080.125,2928.275 4080.125,2929.525 4086.475,2929.525 4086.475,2928.275 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1992-1"
-       points="4086.475,2927.625 4086.475,2926.375 4080.125,2926.375 4080.125,2927.625 "
+       points="4080.125,2926.375 4080.125,2927.625 4086.475,2927.625 4086.475,2926.375 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon2000-2"
-       points="4086.475,2925.625 4086.475,2924.375 4080.125,2924.375 4080.125,2925.625 "
+       points="4080.125,2924.375 4080.125,2925.625 4086.475,2925.625 4086.475,2924.375 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon2008-2"
-       points="4086.475,2923.625 4086.475,2922.375 4080.125,2922.375 4080.125,2923.625 "
+       points="4080.125,2922.375 4080.125,2923.625 4086.475,2923.625 4086.475,2922.375 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon2014-6"
-       points="4086.475,2921.725 4086.475,2920.475 4080.125,2920.475 4080.125,2921.725 "
+       points="4080.125,2920.475 4080.125,2921.725 4086.475,2921.725 4086.475,2920.475 "
        style="display:inline;fill:#4b8eff;fill-opacity:1;stroke:#bc3154;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1680-7"
-       points="4003.9,2914.4 4010.1,2914.4 4010.1,2920.6 4003.9,2920.6 "
+       points="4010.1,2920.6 4003.9,2920.6 4003.9,2914.4 4010.1,2914.4 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933828,0,0,0.4224129,-1835.4615,-1145.8503)" />
     <polygon
        id="polygon1698-5"
-       points="4003.9,2927.4 4010.1,2927.4 4010.1,2933.6 4003.9,2933.6 "
+       points="4010.1,2933.6 4003.9,2933.6 4003.9,2927.4 4010.1,2927.4 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933828,0,0,0.42249656,-1835.4615,-1148.4699)" />
     <polygon
        id="polygon1714-3"
-       points="4003.9,2939.9 4010.1,2939.9 4010.1,2946.1 4003.9,2946.1 "
+       points="4010.1,2946.1 4003.9,2946.1 4003.9,2939.9 4010.1,2939.9 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933828,0,0,0.4223289,-1835.4615,-1150.1416)" />
     <polygon
        id="polygon1746-5"
-       points="4003.9,2979.4 4010.1,2979.4 4010.1,2985.6 4003.9,2985.6 "
+       points="4010.1,2985.6 4003.9,2985.6 4003.9,2979.4 4010.1,2979.4 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933828,0,0,0.50309444,-1835.4615,-1397.5475)" />
     <polygon
        id="polygon1762-6"
-       points="4003.9,2965.9 4010.1,2965.9 4010.1,2972.1 4003.9,2972.1 "
+       points="4010.1,2972.1 4003.9,2972.1 4003.9,2965.9 4010.1,2965.9 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933828,0,0,0.5030951,-1835.4615,-1394.4158)" />
     <polygon
        id="polygon1778-2"
-       points="4010.1,2952.4 4010.1,2958.6 4003.9,2958.6 4003.9,2952.4 "
+       points="4003.9,2958.6 4003.9,2952.4 4010.1,2952.4 4010.1,2958.6 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933828,0,0,0.42249606,-1835.4615,-1152.8276)" />
     <polygon
        id="polygon1664-9"
-       points="4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 "
+       points="4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.006,-1146.0733)" />
     <polygon
        id="polygon1664-2-1"
-       points="4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 "
+       points="4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.006,-1142.9572)" />
     <polygon
        id="polygon1664-2-9-2"
-       points="4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 "
+       points="4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.006,-1139.8405)" />
     <polygon
        id="polygon1664-2-9-3-7"
-       points="4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 "
+       points="4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.006,-1136.7539)" />
     <polygon
        id="polygon1664-2-9-6-0"
-       points="4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 "
+       points="4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.49460049,0,0,0.37923737,-2000.6195,-1007.7727)" />
     <circle
@@ -873,17 +879,17 @@
        style="display:inline;opacity:1;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;shape-rendering:crispEdges" />
     <polygon
        id="polygon1794-6"
-       points="4059.9,2971.6 4059.9,2965.4 4066.1,2965.4 4066.1,2971.6 "
+       points="4066.1,2965.4 4066.1,2971.6 4059.9,2971.6 4059.9,2965.4 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.3847,-686.08424)" />
     <polygon
        id="polygon1810-1"
-       points="4042.9,2971.6 4042.9,2965.4 4049.1,2965.4 4049.1,2971.6 "
+       points="4049.1,2965.4 4049.1,2971.6 4042.9,2971.6 4042.9,2965.4 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.3847,-686.08424)" />
     <polygon
        id="polygon1826-8"
-       points="4051.4,2971.6 4051.4,2965.4 4057.6,2965.4 4057.6,2971.6 "
+       points="4057.6,2965.4 4057.6,2971.6 4051.4,2971.6 4051.4,2965.4 "
        style="display:inline;opacity:0.703;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.3847,-686.08424)" />
   </g>
@@ -891,7 +897,7 @@
      id="g3008"
      inkscape:groupmode="layer"
      inkscape:label="B.Silk"
-     style="display:inline"
+     style="display:none"
      transform="translate(-3.2740134,-74.965051)"
      sodipodi:insensitive="true">
     <circle
@@ -912,66 +918,65 @@
      inkscape:groupmode="layer"
      inkscape:label="F.Cu"
      style="display:inline"
-     transform="translate(-3.2740134,-74.965051)"
-     sodipodi:insensitive="true">
+     transform="translate(-3.2740134,-74.965051)">
     <polygon
        id="polygon1438"
-       points="4037.85,2936.95 4043.95,2936.95 4043.95,2939.05 4037.85,2939.05 "
+       points="4043.95,2939.05 4037.85,2939.05 4037.85,2936.95 4043.95,2936.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1444"
-       points="4037.85,2941.95 4043.95,2941.95 4043.95,2944.05 4037.85,2944.05 "
+       points="4043.95,2944.05 4037.85,2944.05 4037.85,2941.95 4043.95,2941.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1450"
-       points="4037.85,2946.95 4043.95,2946.95 4043.95,2949.05 4037.85,2949.05 "
+       points="4043.95,2949.05 4037.85,2949.05 4037.85,2946.95 4043.95,2946.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1456"
-       points="4037.85,2951.95 4043.95,2951.95 4043.95,2954.05 4037.85,2954.05 "
+       points="4043.95,2954.05 4037.85,2954.05 4037.85,2951.95 4043.95,2951.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1462"
-       points="4067.05,2951.95 4073.15,2951.95 4073.15,2954.05 4067.05,2954.05 "
+       points="4073.15,2954.05 4067.05,2954.05 4067.05,2951.95 4073.15,2951.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1468"
-       points="4067.05,2946.95 4073.15,2946.95 4073.15,2949.05 4067.05,2949.05 "
+       points="4073.15,2949.05 4067.05,2949.05 4067.05,2946.95 4073.15,2946.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1474"
-       points="4067.05,2941.95 4073.15,2941.95 4073.15,2944.05 4067.05,2944.05 "
+       points="4073.15,2944.05 4067.05,2944.05 4067.05,2941.95 4073.15,2941.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1480"
-       points="4067.05,2936.95 4073.15,2936.95 4073.15,2939.05 4067.05,2939.05 "
+       points="4073.15,2939.05 4067.05,2939.05 4067.05,2936.95 4073.15,2936.95 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1516"
-       points="4084.893,2929.217 4084.893,2933.784 4079.106,2933.784 4079.106,2929.217 "
+       points="4079.106,2933.784 4079.106,2929.217 4084.893,2929.217 4084.893,2933.784 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1522"
-       points="4084.893,2937.217 4084.893,2941.784 4079.106,2941.784 4079.106,2937.217 "
+       points="4079.106,2941.784 4079.106,2937.217 4084.893,2937.217 4084.893,2941.784 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1538"
-       points="4033.393,2930.784 4027.606,2930.784 4027.606,2926.217 4033.393,2926.217 "
+       points="4027.606,2926.217 4033.393,2926.217 4033.393,2930.784 4027.606,2930.784 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5871,-684.70956)" />
     <polygon
        id="polygon1544"
-       points="4033.393,2938.784 4027.606,2938.784 4027.606,2934.217 4033.393,2934.217 "
+       points="4027.606,2934.217 4033.393,2934.217 4033.393,2938.784 4027.606,2938.784 "
        style="fill:#ff0000;stroke:#ff0000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5871,-684.70956)" />
     <path
@@ -1111,142 +1116,148 @@
        inkscape:path-effect="#path-effect1422"
        inkscape:original-d="m 19.044365,92.098251 c 0.396321,-0.0626 0.78411,0.007 1.179903,-0.0546 0.395792,-0.062 0.868428,-0.13255 1.298112,-0.13229"
        sodipodi:nodetypes="ccc" />
+    <circle
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.3048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1191-75-3"
+       cx="19.044333"
+       cy="92.098267"
+       r="0.18099999" />
   </g>
   <g
      id="g3012"
      inkscape:groupmode="layer"
      inkscape:label="F.Mask"
-     style="display:inline;opacity:0.703"
+     style="display:none;opacity:0.703"
      transform="translate(-3.2740134,-74.965051)"
      sodipodi:insensitive="true">
     <polygon
        id="polygon1438-0"
-       points="4037.85,2936.95 4043.95,2936.95 4043.95,2939.05 4037.85,2939.05 "
+       points="4043.95,2939.05 4037.85,2939.05 4037.85,2936.95 4043.95,2936.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1444-6"
-       points="4037.85,2941.95 4043.95,2941.95 4043.95,2944.05 4037.85,2944.05 "
+       points="4043.95,2944.05 4037.85,2944.05 4037.85,2941.95 4043.95,2941.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1450-1"
-       points="4037.85,2946.95 4043.95,2946.95 4043.95,2949.05 4037.85,2949.05 "
+       points="4043.95,2949.05 4037.85,2949.05 4037.85,2946.95 4043.95,2946.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1456-5"
-       points="4037.85,2951.95 4043.95,2951.95 4043.95,2954.05 4037.85,2954.05 "
+       points="4043.95,2954.05 4037.85,2954.05 4037.85,2951.95 4043.95,2951.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1462-9"
-       points="4067.05,2951.95 4073.15,2951.95 4073.15,2954.05 4067.05,2954.05 "
+       points="4073.15,2954.05 4067.05,2954.05 4067.05,2951.95 4073.15,2951.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1468-4"
-       points="4067.05,2946.95 4073.15,2946.95 4073.15,2949.05 4067.05,2949.05 "
+       points="4073.15,2949.05 4067.05,2949.05 4067.05,2946.95 4073.15,2946.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1474-9"
-       points="4067.05,2941.95 4073.15,2941.95 4073.15,2944.05 4067.05,2944.05 "
+       points="4073.15,2944.05 4067.05,2944.05 4067.05,2941.95 4073.15,2941.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1480-0"
-       points="4067.05,2936.95 4073.15,2936.95 4073.15,2939.05 4067.05,2939.05 "
+       points="4073.15,2939.05 4067.05,2939.05 4067.05,2936.95 4073.15,2936.95 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1516-9"
-       points="4084.893,2929.217 4084.893,2933.784 4079.106,2933.784 4079.106,2929.217 "
+       points="4079.106,2933.784 4079.106,2929.217 4084.893,2929.217 4084.893,2933.784 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1522-1"
-       points="4084.893,2937.217 4084.893,2941.784 4079.106,2941.784 4079.106,2937.217 "
+       points="4079.106,2941.784 4079.106,2937.217 4084.893,2937.217 4084.893,2941.784 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5503,-685.44597)" />
     <polygon
        id="polygon1538-7"
-       points="4033.393,2930.784 4027.606,2930.784 4027.606,2926.217 4033.393,2926.217 "
+       points="4027.606,2926.217 4033.393,2926.217 4033.393,2930.784 4027.606,2930.784 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5846,-684.70759)" />
     <polygon
        id="polygon1544-7"
-       points="4033.393,2938.784 4027.606,2938.784 4027.606,2934.217 4033.393,2934.217 "
+       points="4027.606,2934.217 4033.393,2934.217 4033.393,2938.784 4027.606,2938.784 "
        style="display:inline;fill:#f51860;fill-opacity:1;stroke:#504900;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.5846,-684.70759)" />
     <polygon
        id="polygon1680"
-       points="4003.9,2914.4 4010.1,2914.4 4010.1,2920.6 4003.9,2920.6 "
+       points="4010.1,2920.6 4003.9,2920.6 4003.9,2914.4 4010.1,2914.4 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933829,0,0,0.42241291,-1835.4615,-1145.8503)" />
     <polygon
        id="polygon1698"
-       points="4003.9,2927.4 4010.1,2927.4 4010.1,2933.6 4003.9,2933.6 "
+       points="4010.1,2933.6 4003.9,2933.6 4003.9,2927.4 4010.1,2927.4 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933829,0,0,0.42249657,-1835.4615,-1148.4699)" />
     <polygon
        id="polygon1714"
-       points="4003.9,2939.9 4010.1,2939.9 4010.1,2946.1 4003.9,2946.1 "
+       points="4010.1,2946.1 4003.9,2946.1 4003.9,2939.9 4010.1,2939.9 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933829,0,0,0.42232889,-1835.4615,-1150.1416)" />
     <polygon
        id="polygon1746"
-       points="4003.9,2979.4 4010.1,2979.4 4010.1,2985.6 4003.9,2985.6 "
+       points="4010.1,2985.6 4003.9,2985.6 4003.9,2979.4 4010.1,2979.4 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933829,0,0,0.50309445,-1835.4615,-1397.5475)" />
     <polygon
        id="polygon1762"
-       points="4003.9,2965.9 4010.1,2965.9 4010.1,2972.1 4003.9,2972.1 "
+       points="4010.1,2972.1 4003.9,2972.1 4003.9,2965.9 4010.1,2965.9 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933829,0,0,0.50309509,-1835.4615,-1394.4158)" />
     <polygon
        id="polygon1778"
-       points="4010.1,2952.4 4010.1,2958.6 4003.9,2958.6 4003.9,2952.4 "
+       points="4003.9,2958.6 4003.9,2952.4 4010.1,2952.4 4010.1,2958.6 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45933829,0,0,0.42249605,-1835.4615,-1152.8276)" />
     <polygon
        id="polygon1794"
-       points="4059.9,2971.6 4059.9,2965.4 4066.1,2965.4 4066.1,2971.6 "
+       points="4066.1,2965.4 4066.1,2971.6 4059.9,2971.6 4059.9,2965.4 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.3847,-686.08424)" />
     <polygon
        id="polygon1810"
-       points="4042.9,2971.6 4042.9,2965.4 4049.1,2965.4 4049.1,2971.6 "
+       points="4049.1,2965.4 4049.1,2971.6 4042.9,2971.6 4042.9,2965.4 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.3847,-686.08424)" />
     <polygon
        id="polygon1826"
-       points="4051.4,2971.6 4051.4,2965.4 4057.6,2965.4 4057.6,2971.6 "
+       points="4057.6,2965.4 4057.6,2971.6 4051.4,2971.6 4051.4,2965.4 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.26458333,0,0,0.26458333,-1055.3847,-686.08424)" />
     <polygon
        id="polygon1664"
-       points="4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 "
+       points="4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.0059,-1146.0733)" />
     <polygon
        id="polygon1664-2"
-       points="4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 "
+       points="4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.0059,-1142.9572)" />
     <polygon
        id="polygon1664-2-9"
-       points="4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 "
+       points="4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.0059,-1139.8405)" />
     <polygon
        id="polygon1664-2-9-3"
-       points="4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 "
+       points="4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.45934524,0,0,0.42241713,-1856.0059,-1136.7539)" />
     <polygon
        id="polygon1664-2-9-6"
-       points="4108.1,2921.1 4101.9,2921.1 4101.9,2914.9 4108.1,2914.9 "
+       points="4101.9,2914.9 4108.1,2914.9 4108.1,2921.1 4101.9,2921.1 "
        style="display:inline;fill:#c0c0c0;stroke:#c0c0c0;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges"
        transform="matrix(0.49460049,0,0,0.37923738,-2000.6194,-1007.7727)" />
     <circle
@@ -1290,7 +1301,7 @@
      id="g3014"
      inkscape:groupmode="layer"
      inkscape:label="F.Silk"
-     style="display:inline"
+     style="display:none"
      transform="translate(-3.2740134,-74.965051)">
     <g
        style="display:inline;fill:#ffff00;stroke:#000000;stroke-opacity:1"
@@ -1303,7 +1314,7 @@
        c_shapetype="group"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.1851,-689.28928)">
       <path
-         style="fill:none;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke:#000000;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
          inkscape:connector-curvature="0"
          c_fontSize="4.5"
          c_fontFamily=""
@@ -1313,7 +1324,7 @@
          id="path5032" />
     </g>
     <polyline
-       style="fill:none;stroke:#000000;stroke-width:1.00157481;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;shape-rendering:crispEdges"
+       style="fill:none;stroke:#000000;stroke-width:1.00157475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;shape-rendering:crispEdges"
        points="4040 2985 4060 2985"
        c_shapetype="line"
        layerid="3"
@@ -1321,7 +1332,7 @@
        id="gge80"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.2083,-689.1417)" />
     <polyline
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        points="4035 2985 4040 2985"
        c_shapetype="line"
        layerid="3"
@@ -1329,7 +1340,7 @@
        id="gge79"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.2083,-689.1417)" />
     <polyline
-       style="fill:none;stroke:#050500;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1"
+       style="fill:none;stroke:#050500;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        points="4060 2985 4065 2985"
        c_shapetype="line"
        layerid="3"
@@ -1337,7 +1348,7 @@
        id="gge81"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.2083,-689.1417)" />
     <polyline
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        points="4065 2985 4065 2975"
        c_shapetype="line"
        layerid="3"
@@ -1345,7 +1356,7 @@
        id="gge82"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.2083,-689.1417)" />
     <polyline
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        points="4065 2975 4035 2975"
        c_shapetype="line"
        layerid="3"
@@ -1353,7 +1364,7 @@
        id="gge83"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.2083,-689.1417)" />
     <polyline
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges"
        points="4035 2975 4035 2985"
        c_shapetype="line"
        layerid="3"
@@ -1361,7 +1372,7 @@
        id="gge84"
        transform="matrix(0.26458333,0,0,0.26458333,-1054.2083,-689.1417)" />
     <path
-       style="fill:none;stroke:#050500;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#050500;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;shape-rendering:crispEdges"
        inkscape:connector-curvature="0"
        d="m 20.00002,100.63954 a 3.1797625,3.1797625 0 0 1 -5.291668,0"
        c_shapetype="line"
@@ -1396,7 +1407,7 @@
            c_fontFamily=""
            c_fontSize="4.5"
            inkscape:connector-curvature="0"
-           style="fill:none;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke:#000000;stroke-opacity:1" />
+           style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       </g>
       <polyline
          id="gge138"
@@ -1404,56 +1415,56 @@
          layerid="3"
          c_shapetype="line"
          points="4044.4 2959.5 4044.4 2960.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge139"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4044.4 2964.5 4044.4 2965.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge140"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4044.4 2969.5 4044.4 2970.5 4065.6 2970.5 4065.6 2969.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge141"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4065.6 2965.5 4065.6 2964.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge142"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4065.6 2960.5 4065.6 2959.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge143"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4065.6 2955.5 4065.6 2954.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge144"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4065.6 2950.5 4065.6 2949.5 4056.2 2949.5 4053.8 2949.5 4044.4 2949.5 4044.4 2950.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge145"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4044.4 2954.5 4044.4 2955.5"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <path
          id="gge146"
          layerid="3"
@@ -1462,7 +1473,7 @@
          c_shapetype="line"
          d="m 4056.2,2949.5 a 1.2,1.2 0 0 1 -2.4,0"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <path
          id="gge147"
          layerid="3"
@@ -1471,7 +1482,7 @@
          c_shapetype="line"
          d="m 4056.2,2949.5 a 1.2,1.2 0 0 1 -2.4,0"
          inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <g
          c_shapetype="group"
          layerid="3"
@@ -1488,7 +1499,7 @@
            c_fontFamily=""
            c_fontSize="3"
            inkscape:connector-curvature="0"
-           style="fill:none;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke:#000000;stroke-opacity:1" />
+           style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       </g>
     </g>
     <g
@@ -1519,7 +1530,7 @@
            c_fontFamily=""
            c_fontSize="3.3"
            inkscape:connector-curvature="0"
-           style="fill:none;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke:#000000;stroke-opacity:1" />
+           style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       </g>
       <polyline
          id="gge169"
@@ -1527,14 +1538,14 @@
          layerid="3"
          c_shapetype="line"
          points="4096.575 2957.315 4096.575 2952.118 4088.425 2952.118 4088.425 2957.315"
-         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge170"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4096.575 2961.772 4096.575 2966.969 4088.425 2966.969 4088.425 2961.772"
-         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
     </g>
     <g
        c_rotation="90"
@@ -1564,7 +1575,7 @@
            c_fontFamily=""
            c_fontSize="3.3"
            inkscape:connector-curvature="0"
-           style="fill:none;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke:#000000;stroke-opacity:1" />
+           style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       </g>
       <polyline
          id="gge159"
@@ -1572,14 +1583,14 @@
          layerid="3"
          c_shapetype="line"
          points="4085.575 2957.315 4085.575 2952.118 4077.425 2952.118 4077.425 2957.315"
-         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
       <polyline
          id="gge160"
          net=""
          layerid="3"
          c_shapetype="line"
          points="4085.575 2961.772 4085.575 2966.969 4077.425 2966.969 4077.425 2961.772"
-         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;shape-rendering:crispEdges;stroke-opacity:1" />
+         style="fill:none;stroke:#000000;stroke-width:0.787;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;shape-rendering:crispEdges" />
     </g>
     <path
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26500002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:112.06298065;stroke-opacity:1;shape-rendering:crispEdges"
