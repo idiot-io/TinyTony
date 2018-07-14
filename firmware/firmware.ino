@@ -1,75 +1,52 @@
 /*******************************************************************
 
    words http://idiot.io
-   code https://github.com/shenkarSElab/tongue
+   code https://github.com/idiot-io/TinyTony
 
    pin out attiny85
    RST    -1+----+8-   VCC
-   3/LDR  -2|*   |7-   2/PWM
+   3/LDR  -2|*   |7-   2/SCL(I2C)
    4/IR   -3|    |6-   1/SERIAL
-   GND    -4+----+5-   0/SERVO
+   GND    -4+----+5-   0/SDA(I2C)
 
   using:
   ATTinyCore- https://github.com/SpenceKonde/ATTinyCore
-  sofServo http://playground.arduino.cc/ComponentLib/Servo
-  SendOnlySoftwareSerial https://forum.arduino.cc/index.php?topic=112013.msg841582#msg841582
-  tiny_ir https://gist.github.com/SeeJayDee/caa9b5cc29246df44e45b8e7d1b1cdc5
-  ir_methods https://github.com/z3t0/Arduino-IRremote/wiki/Receiving-with-the-IRremote-library
+  drv8330 DRIVER- based on  https://github.com/sparkfun/SparkFun_MiniMoto_Arduino_Library
 
-  attiny85 pinout - https://camo.githubusercontent.com/081b569122da2244ff7de8bae15eb56947d05cc8/687474703a2f2f6472617a7a792e636f6d2f652f696d672f50696e6f7574543835612e6a7067
- 
- 
- 
-  ==calibration==
-  the system has an initial guess for calibration, 
-  but you will need to fine tune it to compensate 
-  for diffrent material and lighting
+  drv8330 I2C address table
+  +------+------+---------+
+  |  A1  |  A0  | Address |
+  +------+------+---------+
+  | 0    | 0    | 0xC0    |
+  | 0    | open | 0xC2    |
+  | 0    | 1    | 0xC4    |
+  | open | 0    | 0xC6    |
+  | open | open | 0xC8    |
+  | open | 1    | 0xCA    |
+  | 1    | 0    | 0xCC    |
+  | 1    | open | 0xCE    |
+  | 1    | 1    | 0xD0    |
+  +------+------+---------+
 
-  [CH+] means press that key on remote
-  
-  *fine tune
-  cover LDR #1       press the [CH+] to set maxval
-  cover LDR #2       press the [CH-] to set minval
-  uncover both LDRs  press the [CH] to set midval
+  attiny85 pinout - https://i.imgur.com/gfLIGGz.jpg
+*/
 
-  *trim
-  press [-] and [+] to subtract/add to trim value
-    after fine-tune you will have to trim the motor middle point
-    press until the motor doesn't turn or twitch in uncovered state.
-    usually no more then -/+10 is needed. 
-
-  *store
-  to put your settings in deep memory press the [200+] key
-    the setting you provide will be stored in ATtoni 
-    so they are remmbered and will  reboot.
-
-  *info
-  if DEBUG is on you can use the [EQ] button to watch your settings
-  you will need a serial RX line connected to pin6 (TX)
-
-  
-  *sensitivity 
-    [PREV] AND [NEXT] keys set the minimal motion trashold 
-
-  == usage ==
-  === setups ==
-  *LDRx2 - voltage divider
-  *LINEAR - fixed side
-
-
-
- *******************************************************************/
+#define SDA_PORT PORTB
+#define SDA_PIN 0
+#define SCL_PORT PORTB
+#define SCL_PIN 2
+#include <SoftWire.h>
+SoftWire Wire = SoftWire();
+// Create drv8330 instances
+//drv8330 motor0(0xC8); // A1 = 1, A0 = clear
 
 #include <EEPROM.h>
 
-#define SERVO1PIN 0   // Servo control line (orange) on 0/PWM
 #define TXPIN     1 // tested on PB1/PB4
-#define LEDPIN    2 // led pin
+#define SCL       2 // SCL(I2C)
+#define SDA       0 // SDA(I2C)
 #define POTPIN    3  // Potentiometer on A3
 #define RECVPIN   4 //ir reciver data pin , tested on PB1/PB4
-
-#include "SoftwareServo.h"
-SoftwareServo softServo;  // create servo object to control a servo
 
 #include "SendOnlySoftwareSerial.h"
 SendOnlySoftwareSerial softSerial (TXPIN);  // Tx pin
@@ -83,41 +60,27 @@ unsigned long  prevValue;
 struct settings {
   int minval;
   int midval;
-  int maxval; 
+  int maxval;
   int trim;
   int senestivity;
-  int MaximumPulse;
 };
-settings set01 = {50,200,400,0,20, 2200 };
+settings set01 = {150, 450, 790, 0, 20 };
 
-int servoPos;
+int motoPos;
 int potValue, tmpval;
-  
+
 float x_1, y;
 int graph_state = 0;
 
 void setup() {
-
-  pinMode(LEDPIN, OUTPUT);
-  digitalWrite(LEDPIN, LOW);
-
+  Wire.begin();
+  
   irrecv.enableIRIn();
 
   softSerial.begin(9600);
   softSerial.println("reboot");
-  
-  EEPROM.get(0, set01);
-  //make sure we dont get null values for maxpulse
-  if(set01.MaximumPulse<=0 )
-  {
-    set01.MaximumPulse = 2100;
-    printdebug();
-  }
-  
 
-  softServo.attach(SERVO1PIN);
-  softServo.setMaximumPulse(set01.MaximumPulse);
-  //softServo.setMaximumPulse(2200);
+  EEPROM.get(0, set01);
 
   delay(15);
 }
@@ -128,19 +91,19 @@ void loop()  {
     switch (results.value) {
       case 0xFFA25D:
         //softSerial.println("CH-");
-	      set01.minval = servoPos;
+        set01.minval = motoPos;
         printdebug();
         break;
 
-      case 0xFF629D: 
-       // softSerial.println("CH");
-	      set01.midval = servoPos;
+      case 0xFF629D:
+        // softSerial.println("CH");
+        set01.midval = motoPos;
         printdebug();
         break;
-        
+
       case 0xFFE21D:
         //softSerial.println("CH+");
-        set01.maxval = servoPos;
+        set01.maxval = motoPos;
         printdebug();
         break;
 
@@ -161,7 +124,7 @@ void loop()  {
         set01.senestivity -= 10;
         printdebug();
         break;
-        
+
       case 0xFF02FD:
         ////softSerial.println(">");
         set01.senestivity += 10;
@@ -171,29 +134,25 @@ void loop()  {
       case 0xFF52AD:
         //softSerial.println("9");
         if (graph_state)
-          graph_state=0;
-        else 
-          graph_state=1;    
-          
+          graph_state = 0;
+        else
+          graph_state = 1;
+
         break;
 
       case 0xFF42BD:
         ////softSerial.println("7");
-        set01.MaximumPulse -= 50;
-        softServo.setMaximumPulse(set01.MaximumPulse);
         printdebug();
         break;
       case 0xFF4AB5:
         ////softSerial.println("8");
-        set01.MaximumPulse += 50;
-        softServo.setMaximumPulse(set01.MaximumPulse);
         printdebug();
         break;
 
       case 0xFF6897:
         //softSerial.println("0");
-        set01 = {50,200,500,0, 20 };
-        printdebug();	
+        set01 = {50, 200, 500, 0, 20 };
+        printdebug();
         break;
 
       case 0xFF906F:
@@ -210,68 +169,63 @@ void loop()  {
       case 0xFFFFFFFF:
         break;
 
-          }
-            
+    }
+
 
     irrecv.resume();
   }
 
   // Read voltage on LDR
-  potValue = analogRead(POTPIN);  
- 
+  potValue = analogRead(POTPIN);
+
   //smoothing
-  y = 0.10*potValue +0.75*y;
-  servoPos = int(y)  ;
-  servoPos = servoPos - set01.midval;
-  tmpval = int(mapped(servoPos));
-  tmpval = constrain(tmpval, 0, 179);
+  y = 0.10 * potValue + 0.75 * y;
+  motoPos = int(y)  ;
+  motoPos = motoPos - set01.midval;
+  tmpval = int(mapped(motoPos));
+  tmpval = constrain(tmpval, -63, 63);
 
   if (millis() - prevValue >= 15) {
     prevValue = millis();
-    softServo.write(tmpval);
+   // motor0.drive(tmpval);
 
-    SoftwareServo::refresh();
-    
-	  //printdebug();
+    //printdebug();
     printGraph();
   }
 
 }
 
 
-int mapped(int input){
-	int output;
-  if ( (input >= (set01.midval - set01.senestivity) ) && (input <= (set01.midval + set01.senestivity)) ){
-		output = 90-set01.trim ;
-    digitalWrite(LEDPIN, HIGH);
-	  } else if (input < (set01.midval - set01.senestivity)){
-		output = map(input, set01.minval, set01.midval, 0, 90-set01.trim   );
-    digitalWrite(LEDPIN, LOW);
-    }else if(input > (set01.midval + set01.senestivity)){
-		output = map(input, set01.midval, set01.maxval, 179, 90-set01.trim  );
-    digitalWrite(LEDPIN, LOW);	
+int mapped(int input) {
+  int output;
+  if ( (input >= (set01.midval - set01.senestivity) ) && (input <= (set01.midval + set01.senestivity)) ) {
+    output = 90 - set01.trim ;
+  } else if (input < (set01.midval - set01.senestivity)) {
+    output = map(input, set01.minval, set01.midval, 0, 90 - set01.trim   );
+  } else if (input > (set01.midval + set01.senestivity)) {
+    output = map(input, set01.midval, set01.maxval, 179, 90 - set01.trim  );
   }
-	return output;
+  return output;
 }
 
 //void printGraph(){};
-void printGraph(){
-  if(graph_state){
+void printGraph() {
+  if (graph_state) {
     softSerial.print(tmpval);
-	  softSerial.print("	");
-	  softSerial.print(int(servoPos));
-	  //softSerial.print("	");
-	  //softSerial.print(potValue);
+    softSerial.print("	");
+    softSerial.print(int(motoPos));
+    //softSerial.print("	");
+    //softSerial.print(potValue);
     softSerial.println();
   }
 }
-void printdebug(){};
+void printdebug() {};
 
 /*
 
-/*
-void printdebug(){
-	//softSerial.println("minval  midval maxval  trim sensitivity servopos");
+  /*
+  void printdebug(){
+	//softSerial.println("minval  midval maxval  trim sensitivity motoPos");
   /*
 	softSerial.print(set01.minval);
 	softSerial.print("  ");
@@ -285,14 +239,14 @@ void printdebug(){
   softSerial.print("  ");
 	softSerial.print(set01.MaximumPulse);
   softSerial.print("  ");
-	softSerial.print(servoPos);
-	//softSerial.println("tmpval	servoPos	potValue");
+	softSerial.print(motoPos);
+	//softSerial.println("tmpval	motoPos	potValue");
 	//softSerial.print(tmpval);
 	//softSerial.print("	");
 	//softSerial.print("	");
 	//softSerial.print(potValue);
   softSerial.println();
 
-}
+  }
 */
-  
+
