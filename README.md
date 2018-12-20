@@ -1,6 +1,6 @@
 ## TinyTony V1.0
 words http://idiot.io   
-code https://github.com/shenkarSElab/TinyTony 
+code https://github.com/idiot-io/TinyTony 
 
 
 #### TOC
