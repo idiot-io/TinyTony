@@ -4,7 +4,7 @@
   tiytony esp8266
 
   drv8830 code from https://jiwashin.blogspot.com/2016/09/drive-dc-motor-by-drv8830-and-esp8266.html
-  pdf > http://www.tij.co.jp/jp/lit/ds/symlink/drv8830.pdf
+  pdf > http://www.ti.com/lit/ds/symlink/drv8830.pdf
 
   ##wiring
   ESP	        DRV 8830
@@ -62,14 +62,14 @@
 int mapped(int input);
 void printGraph();
 
-uint8_t readMotorStatus();
-void resetMotorStatus();
-void runMotor(int inVector);
-void writeToDriver(byte inDirection, byte inVoltage);
-void brakeMotor();
+uint8_t readMotorStatus(int addr);
+void resetMotorStatus(int addr);
+void runMotor(int addr, int inVector);
+void writeToDriver(int addr, byte inDirection, byte inVoltage);
+void brakeMotor(int addr);
 
-const int kDrv8830Address = 0x64;
-
+const int kDrv8830Address1 = 0x64; //A0,A1 both open
+const int kDrv8830Address2 = 0x61; //A0 open, A1 to GND
 const int kBitClear  = 0x80;
 const int kBitILimit = 0x10;
 const int kBitOTS    = 0x08;
@@ -88,17 +88,17 @@ struct settings {
   int trim;
   int senestivity;
 };
-settings set01 = {-100,180,292,20,5 };
+settings set01 = {88,645,1024,20,5 };
 
-int pos, potValue, speed, adc;
+int pos, potValue, speed, adc, adcc, speedc;
+
 #define  graph_state 1
-float y;
 
-float r = 0; //for sinewave
 
 void setup() {
   Serial.begin(115200);
-  Wire.begin();
+  //Wire.begin(int sda, int scl);
+  Wire.begin(4, 5);
 }
 
 
@@ -106,17 +106,14 @@ void setup() {
 void loop() {
 // Read voltage on LDR
   adc = analogRead(A0);
-  //smoothing
-  y = 0.25*adc +0.55*y;
-  pos = y - set01.midval;
-  speed = mapped(pos);
+  //y = 0.10*adc +0.75*y;  //smoothing
+  adcc = (adc-set01.midval)/4;
+  speed = mapped(adcc);
+  speedc=constrain(speed, -60,60);
 
-  if (millis() - prevValue >= 15) {
-    prevValue = millis();
-    printGraph();
-  }
-  speed=constrain(speed, -60,60);
-  runMotor(speed);
+  printGraph();
+ 
+  runMotor(kDrv8830Address1, speedc);
  
   delay(100);
 }
@@ -126,11 +123,13 @@ int mapped(int input){
   if ( input >= -set01.senestivity && input <=  set01.senestivity ){
 		  output = 0 ;
 	} else if (input < -set01.senestivity){
-		  output = map(input, set01.minval, 0, -60, 0   );
-      //Serial.println("<");
+    //if between -20 -200 then
+		  output = map(input, -set01.senestivity,set01.minval , 0, 60   );
+     // Serial.println("<");
   }else if(input > set01.senestivity){
-		  output = map(input, 0, set01.maxval, 0, 60  );
-      //Serial.println(">");
+    //if between 20 200 then
+		  output = map(input, set01.senestivity, set01.maxval, 0, -60  );
+     // Serial.println(">");
 
   }
 	return output;
@@ -139,20 +138,16 @@ int mapped(int input){
 //  DRV8830 Controll
 //
 
-
 //void printGraph(){};
 void printGraph(){
   if(graph_state){
-    Serial.print(y);
-	  Serial.print("	");
-	  Serial.print(pos);
-	  Serial.print("	");
-	  Serial.print(speed);
-    Serial.println();
+   // Serial.print(adc);	  Serial.print("	");
+    Serial.print(adcc);	  Serial.print("	");
+	  Serial.print(speed);    Serial.println();
   }
 }
 
-void runMotor(int inVector) {
+void runMotor(int addr, int inVector) {
   int direction;
   int voltage;
 
@@ -167,29 +162,28 @@ void runMotor(int inVector) {
     voltage = -inVector;
   }
 
-  writeToDriver(direction, voltage);
+  writeToDriver(addr, direction, voltage);
 }
 
-void brakeMotor() {
-  writeToDriver(0x03, 0x00);
+void brakeMotor(int addr) {
+  writeToDriver(addr, 0x03, 0x00);
 }
 
 
-void writeToDriver(byte inDirection, byte inVoltage) {
+void writeToDriver(int addr, byte inDirection, byte inVoltage) {
   if (inVoltage <= 0x05) inVoltage = 0x06;  // minimum voltage value is 0x06.
   
   int outData = (inVoltage & 0x3f) << 2 | (inDirection & 0x03);
-  Wire.beginTransmission(kDrv8830Address);
+  Wire.beginTransmission(addr);
   Wire.write(0x00); //  control
   Wire.write(outData);  //
   Wire.endTransmission(true);
-
   delay(12);
 }
 
 
 
-uint8_t readMotorStatus() {
+uint8_t readMotorStatus(int addr) {
   //add status read/write to loop i needed
   /*  
    int status = readMotorStatus();
@@ -201,11 +195,11 @@ uint8_t readMotorStatus() {
   */
   uint8_t result = 0x00;
     
-  Wire.beginTransmission(kDrv8830Address);
+  Wire.beginTransmission(addr);
   Wire.write(0x01); //  read register 0x01
   Wire.endTransmission();
 
-  Wire.requestFrom(kDrv8830Address, 1);
+  Wire.requestFrom(addr, 1);
   if (Wire.available()) {
     result = Wire.read();
   } else {
@@ -215,8 +209,8 @@ uint8_t readMotorStatus() {
   return result;
 }
 
-void resetMotorStatus() {
-  Wire.beginTransmission(kDrv8830Address);
+void resetMotorStatus(int addr) {
+  Wire.beginTransmission(addr);
   Wire.write(0x01); //  fault
   Wire.write(0x80);  // clear
   Wire.endTransmission(true);
